@@ -24,7 +24,7 @@ hi MatchParen ctermfg=15 ctermbg=240 cterm=bold guifg=#FFFFFF guibg=#585858 gui=
 hi Cursor ctermfg=16 ctermbg=119 cterm=NONE guifg=#000000 guibg=#87FF5F gui=NONE
 hi CursorIM ctermfg=NONE ctermbg=168 cterm=NONE guifg=NONE guibg=#D75F87 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#262626 gui=NONE
-hi CursorLineNr ctermfg=102 ctermbg=NONE cterm=bold guifg=#878787 guibg=NONE gui=bold
+hi CursorLineNr ctermfg=102 ctermbg=233 cterm=bold guifg=#878787 guibg=#121212 gui=bold
 hi CursorColumn ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#262626 gui=NONE
 hi Search ctermfg=16 ctermbg=147 cterm=bold guifg=#000000 guibg=#AFAFFF gui=bold
 hi IncSearch ctermfg=16 ctermbg=119 cterm=bold guifg=#000000 guibg=#87FF5F gui=bold
