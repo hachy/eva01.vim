@@ -13,7 +13,7 @@ endif
 let g:colors_name = "eva01"
 
 " General colors"{{{
-hi Normal ctermfg=250 ctermbg=NONE cterm=NONE guifg=#BCBCBC guibg=#1C1C1C gui=NONE
+hi Normal ctermfg=252 ctermbg=NONE cterm=NONE guifg=#D0D0D0 guibg=#1C1C1C gui=NONE
 hi NonText ctermfg=119 ctermbg=NONE cterm=NONE guifg=#87FF5F guibg=NONE gui=NONE
 hi Directory ctermfg=156 ctermbg=NONE cterm=NONE guifg=#AFFF87 guibg=NONE gui=NONE
 hi LineNr ctermfg=240 ctermbg=233 cterm=NONE guifg=#585858 guibg=#121212 gui=NONE
@@ -102,7 +102,7 @@ hi link htmlEndTag Statement
 hi link htmlSpecialTagName Number
 hi link htmlArg Statement
 hi link javaScript Normal
-hi htmlItalic ctermfg=250 ctermbg=NONE cterm=NONE
+hi htmlItalic ctermfg=252 ctermbg=NONE cterm=NONE
 "}}}
 " XML"{{{
 hi link xmlEndTag Keyword
@@ -114,11 +114,12 @@ hi link javaScriptDOMProperties Normal
 hi link javaScriptNumber Number
 hi link javaScriptParens Preproc
 hi link javaScriptFuncArg Normal
+hi javaScriptFuncDef ctermfg=168 ctermbg=NONE cterm=NONE guifg=#D75F87 guibg=NONE gui=NONE
 "}}}
 " Ruby"{{{
 hi rubyRegexp ctermfg=168 ctermbg=NONE cterm=bold guifg=#D75F87 guibg=NONE gui=bold
 hi rubyRegexpDelimiter ctermfg=168 ctermbg=NONE cterm=bold guifg=#D75F87 guibg=NONE gui=bold
-hi rubyIdentifier ctermfg=250 ctermbg=NONE cterm=bold guifg=#BCBCBC guibg=NONE gui=bold
+hi rubyIdentifier ctermfg=252 ctermbg=NONE cterm=bold guifg=#D0D0D0 guibg=NONE gui=bold
 hi link rubyAccess Special
 hi link rubyConstant Constant
 hi link rubyFunction Constant
