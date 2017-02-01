@@ -2,4 +2,7 @@
 
 A dark color scheme for Vim
 
-![screenshots1](https://dl.dropboxusercontent.com/u/60760023/screenshots/eva01screenshots1.png)
+#### Screenshots
+
+![rails screenshots](https://hachy.github.io/eva01.vim/assets/images/screenshots_rails.png)
+![html screenshots](https://hachy.github.io/eva01.vim/assets/images/screenshots_html.png)
