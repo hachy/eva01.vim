@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 400 16px/1.5 "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", Roboto, Helvetica, Arial, sans-serif;
+  color: #fff;
+  background: linear-gradient(-46deg, #afff87, #af5fff);
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure {
+  margin-bottom: 15px;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.wrapper {
+  max-width: 1020px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/* Clearfix */
+.wrapper:after, .footer-col-wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.site-header {
+  text-align: center;
+  margin: 80px 0 0;
+}
+
+.site-title {
+  color: #fff;
+  font-size: 46px;
+  font-weight: 1000;
+  line-height: 56px;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+
+.site-footer {
+  text-align: center;
+  margin-bottom: 50px;
+}
