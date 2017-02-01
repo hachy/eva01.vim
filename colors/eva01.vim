@@ -147,6 +147,15 @@ hi link coffeeObject Constant
 " php"{{{
 hi link phpParent Normal
 "}}}
+" go"{{{
+hi link goDirective Preproc
+hi link goDeclaration Preproc
+hi link goField Special
+hi link goFunction Type
+hi link goFunctionCall Identifier
+hi link goMethodCall Identifier
+hi link goReceiverType Identifier
+"}}}
 " Markdown"{{{
 hi markdownH3 ctermfg=135 ctermbg=NONE cterm=bold guifg=#AF5FFF guibg=NONE gui=bold
 hi markdownH4 ctermfg=135 ctermbg=NONE cterm=bold guifg=#AF5FFF guibg=NONE gui=bold
