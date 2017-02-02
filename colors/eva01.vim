@@ -24,6 +24,7 @@ hi DiffAdd ctermfg=234 ctermbg=156 cterm=NONE guifg=#1C1C1C guibg=#AFFF87 gui=NO
 hi DiffChange ctermfg=234 ctermbg=175 cterm=NONE guifg=#1C1C1C guibg=#D787AF gui=NONE
 hi DiffDelete ctermfg=156 ctermbg=NONE cterm=NONE guifg=#AFFF87 guibg=NONE gui=NONE
 hi DiffText ctermfg=234 ctermbg=168 cterm=bold guifg=#1C1C1C guibg=#D75F87 gui=bold
+hi EndOfBuffer ctermfg=119 ctermbg=NONE cterm=NONE guifg=#87FF5F guibg=NONE gui=NONE
 hi ErrorMsg ctermfg=168 ctermbg=NONE cterm=bold guifg=#D75F87 guibg=NONE gui=bold
 hi VertSplit ctermfg=97 ctermbg=NONE cterm=NONE guifg=#875FAF guibg=NONE gui=NONE
 hi Folded ctermfg=97 ctermbg=235 cterm=bold guifg=#875FAF guibg=#262626 gui=bold
