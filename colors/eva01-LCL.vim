@@ -163,3 +163,8 @@ hi markdownH4 ctermfg=135 ctermbg=NONE cterm=bold guifg=#bc79ff guibg=NONE gui=b
 hi markdownH5 ctermfg=135 ctermbg=NONE cterm=bold guifg=#bc79ff guibg=NONE gui=bold
 hi markdownH6 ctermfg=135 ctermbg=NONE cterm=bold guifg=#bc79ff guibg=NONE gui=bold
 "}}}
+" vim-gitgutter"{{{
+hi GitGutterAdd ctermfg=156 ctermbg=NONE cterm=bold guifg=#bee38a guibg=NONE gui=bold
+hi GitGutterChange ctermfg=179 ctermbg=NONE cterm=bold guifg=#D7AF5F guibg=NONE gui=bold
+hi GitGutterDelete ctermfg=168 ctermbg=NONE cterm=bold guifg=#D75F87 guibg=NONE gui=bold
+"}}}
