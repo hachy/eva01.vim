@@ -126,6 +126,7 @@ hi link rubyConstant Constant
 hi link rubyFunction Constant
 hi link rubyKeyword Number
 hi link rubySymbol Identifier
+hi link rubySymbolDelimiter Delimiter
 hi link rubyClassVariable Identifier
 hi link rubyInstanceVariable Identifier
 hi link rubyBlockParameter Normal
