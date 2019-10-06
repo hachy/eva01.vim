@@ -16,16 +16,16 @@ let g:colors_name = "eva01-LCL"
 hi ColorColumn ctermfg=NONE ctermbg=97 cterm=NONE guifg=NONE guibg=#875FAF gui=NONE
 hi Conceal ctermfg=119 ctermbg=NONE cterm=NONE guifg=#76FF03 guibg=NONE gui=NONE
 hi Cursor ctermfg=16 ctermbg=119 cterm=NONE guifg=#000000 guibg=#76FF03 gui=NONE
-hi CursorIM ctermfg=NONE ctermbg=168 cterm=NONE guifg=NONE guibg=#F44336 gui=NONE
+hi CursorIM ctermfg=NONE ctermbg=168 cterm=NONE guifg=NONE guibg=#EF5350 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#262626 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 hi Directory ctermfg=156 ctermbg=NONE cterm=NONE guifg=#AEEA00 guibg=NONE gui=NONE
 hi DiffAdd ctermfg=16 ctermbg=156 cterm=NONE guifg=#000000 guibg=#AEEA00 gui=NONE
 hi DiffChange ctermfg=16 ctermbg=175 cterm=NONE guifg=#000000 guibg=#D787AF gui=NONE
 hi DiffDelete ctermfg=156 ctermbg=NONE cterm=NONE guifg=#AEEA00 guibg=NONE gui=NONE
-hi DiffText ctermfg=16 ctermbg=168 cterm=bold guifg=#000000 guibg=#F44336 gui=bold
+hi DiffText ctermfg=16 ctermbg=168 cterm=bold guifg=#000000 guibg=#EF5350 gui=bold
 hi EndOfBuffer ctermfg=119 ctermbg=NONE cterm=NONE guifg=#76FF03 guibg=NONE gui=NONE
-hi ErrorMsg ctermfg=168 ctermbg=NONE cterm=bold guifg=#F44336 guibg=NONE gui=bold
+hi ErrorMsg ctermfg=168 ctermbg=NONE cterm=bold guifg=#EF5350 guibg=NONE gui=bold
 hi VertSplit ctermfg=97 ctermbg=NONE cterm=NONE guifg=#875FAF guibg=NONE gui=NONE
 hi Folded ctermfg=97 ctermbg=235 cterm=bold guifg=#875FAF guibg=#262626 gui=bold
 hi FoldColumn ctermfg=97 ctermbg=NONE cterm=bold guifg=#875FAF guibg=NONE gui=bold
@@ -37,7 +37,7 @@ hi MatchParen ctermfg=15 ctermbg=240 cterm=bold guifg=#FFFFFF guibg=#585858 gui=
 hi ModeMsg ctermfg=119 ctermbg=NONE cterm=bold guifg=#76FF03 guibg=NONE gui=bold
 hi MoreMsg ctermfg=119 ctermbg=NONE cterm=bold guifg=#76FF03 guibg=NONE gui=bold
 hi NonText ctermfg=119 ctermbg=NONE cterm=NONE guifg=#76FF03 guibg=NONE gui=NONE
-hi Normal ctermfg=252 ctermbg=NONE cterm=NONE guifg=#D7D1DC guibg=#242424 gui=NONE
+hi Normal ctermfg=252 ctermbg=NONE cterm=NONE guifg=#D7D1DC guibg=#1C1C1C gui=NONE
 hi Pmenu ctermfg=119 ctermbg=16 cterm=NONE guifg=#76FF03 guibg=#000000 gui=NONE
 hi PmenuSel ctermfg=16 ctermbg=119 cterm=NONE guifg=#000000 guibg=#76FF03 gui=NONE
 hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
@@ -45,18 +45,18 @@ hi PmenuThumb ctermfg=NONE ctermbg=119 cterm=NONE guifg=NONE guibg=#76FF03 gui=N
 hi Question ctermfg=119 ctermbg=NONE cterm=underline guifg=#76FF03 guibg=NONE gui=underline
 hi Search ctermfg=16 ctermbg=147 cterm=bold guifg=#000000 guibg=#90B1FD gui=bold
 hi SpecialKey ctermfg=97 ctermbg=NONE cterm=NONE guifg=#875FAF guibg=NONE gui=NONE
-hi SpellBad ctermfg=168 ctermbg=NONE cterm=underline guifg=#F44336 guibg=NONE gui=underline,italic
-hi SpellCap ctermfg=168 ctermbg=NONE cterm=underline guifg=#F44336 guibg=NONE gui=underline,italic
-hi SpellLocal ctermfg=168 ctermbg=NONE cterm=underline guifg=#F44336 guibg=NONE gui=underline,italic
-hi SpellRare ctermfg=168 ctermbg=NONE cterm=underline guifg=#F44336 guibg=NONE gui=underline,italic
-hi StatusLine ctermfg=135 ctermbg=16 cterm=NONE guifg=#BC79FF guibg=#000000 gui=NONE
+hi SpellBad ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline,italic
+hi SpellCap ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline,italic
+hi SpellLocal ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline,italic
+hi SpellRare ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline,italic
+hi StatusLine ctermfg=135 ctermbg=16 cterm=NONE guifg=#BC7EFA guibg=#000000 gui=NONE
 hi StatusLineNC ctermfg=102 ctermbg=16 cterm=NONE guifg=#9E9E9E guibg=#000000 gui=NONE
 hi TabLine ctermfg=102 ctermbg=16 cterm=NONE guifg=#9E9E9E guibg=#000000 gui=NONE
 hi TabLineFill ctermfg=102 ctermbg=16 cterm=NONE guifg=#9E9E9E guibg=#000000 gui=NONE
-hi TabLineSel ctermfg=135 ctermbg=NONE cterm=NONE guifg=#BC79FF guibg=NONE gui=NONE
+hi TabLineSel ctermfg=135 ctermbg=NONE cterm=NONE guifg=#BC7EFA guibg=NONE gui=NONE
 hi Title ctermfg=11 ctermbg=NONE cterm=NONE guifg=#FFEA00 guibg=NONE gui=NONE
 hi Visual ctermfg=119 ctermbg=97 cterm=bold guifg=#76FF03 guibg=#875FAF gui=bold
-hi WarningMsg ctermfg=168 ctermbg=NONE cterm=bold guifg=#F44336 guibg=NONE gui=bold
+hi WarningMsg ctermfg=168 ctermbg=NONE cterm=bold guifg=#EF5350 guibg=NONE gui=bold
 hi WildMenu ctermfg=119 ctermbg=NONE cterm=NONE guifg=#76FF03 guibg=NONE gui=NONE
 "}}}
 " Syntax highlighting"{{{
@@ -64,14 +64,14 @@ hi Comment ctermfg=102 ctermbg=NONE cterm=NONE guifg=#9E9E9E guibg=NONE gui=ital
 hi Constant ctermfg=156 ctermbg=NONE cterm=NONE guifg=#AEEA00 guibg=NONE gui=NONE
 hi String ctermfg=151 ctermbg=NONE cterm=NONE guifg=#C0CA33 guibg=NONE gui=NONE
 hi Number ctermfg=179 ctermbg=NONE cterm=NONE guifg=#FFB300 guibg=NONE gui=NONE
-hi PreProc ctermfg=135 ctermbg=NONE cterm=NONE guifg=#BC79FF guibg=NONE gui=NONE
+hi PreProc ctermfg=135 ctermbg=NONE cterm=NONE guifg=#BC7EFA guibg=NONE gui=NONE
 hi Identifier ctermfg=147 ctermbg=NONE cterm=NONE guifg=#90B1FD guibg=NONE gui=NONE
-hi Statement ctermfg=171 ctermbg=NONE cterm=NONE guifg=#E080FC guibg=NONE gui=NONE
+hi Statement ctermfg=171 ctermbg=NONE cterm=NONE guifg=#C993FF guibg=NONE gui=NONE
 hi Type ctermfg=156 ctermbg=NONE cterm=NONE guifg=#AEEA00 guibg=NONE gui=NONE
 hi Special ctermfg=179 ctermbg=NONE cterm=NONE guifg=#FFB300 guibg=NONE gui=NONE
 hi Underlined ctermfg=119 ctermbg=NONE cterm=underline guifg=#76FF03 guibg=NONE gui=underline
-hi Error ctermfg=168 ctermbg=NONE cterm=underline guifg=#F44336 guibg=NONE gui=underline
-hi Todo ctermfg=168 ctermbg=NONE cterm=bold guifg=#F44336 guibg=NONE gui=bold
+hi Error ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline
+hi Todo ctermfg=168 ctermbg=NONE cterm=bold guifg=#EF5350 guibg=NONE gui=bold
 "hi Ignore
 hi link Character Constant
 hi link Boolean Constant
@@ -115,11 +115,11 @@ hi link javaScriptDOMProperties Normal
 hi link javaScriptNumber Number
 hi link javaScriptParens Preproc
 hi link javaScriptFuncArg Normal
-hi javaScriptFuncDef ctermfg=168 ctermbg=NONE cterm=NONE guifg=#F44336 guibg=NONE gui=NONE
+hi javaScriptFuncDef ctermfg=168 ctermbg=NONE cterm=NONE guifg=#EF5350 guibg=NONE gui=NONE
 "}}}
 " Ruby"{{{
-hi rubyRegexp ctermfg=168 ctermbg=NONE cterm=bold guifg=#F44336 guibg=NONE gui=bold
-hi rubyRegexpDelimiter ctermfg=168 ctermbg=NONE cterm=bold guifg=#F44336 guibg=NONE gui=bold
+hi rubyRegexp ctermfg=168 ctermbg=NONE cterm=bold guifg=#EF5350 guibg=NONE gui=bold
+hi rubyRegexpDelimiter ctermfg=168 ctermbg=NONE cterm=bold guifg=#EF5350 guibg=NONE gui=bold
 hi rubyIdentifier ctermfg=252 ctermbg=NONE cterm=bold guifg=#D0D0D0 guibg=NONE gui=bold
 hi link rubyAccess Special
 hi link rubyConstant Constant
@@ -161,5 +161,5 @@ hi link goReceiverType Identifier
 " vim-gitgutter"{{{
 hi GitGutterAdd ctermfg=156 ctermbg=NONE cterm=bold guifg=#AEEA00 guibg=NONE gui=bold
 hi GitGutterChange ctermfg=179 ctermbg=NONE cterm=bold guifg=#FFB300 guibg=NONE gui=bold
-hi GitGutterDelete ctermfg=168 ctermbg=NONE cterm=bold guifg=#F44336 guibg=NONE gui=bold
+hi GitGutterDelete ctermfg=168 ctermbg=NONE cterm=bold guifg=#EF5350 guibg=NONE gui=bold
 "}}}
