@@ -136,6 +136,18 @@ input[name='tab_item'] {
   border-bottom: 2px solid #bc7efa;
 }
 
+.scale-img {
+  margin-bottom: 20px;
+  transform-origin: 50% 25%;
+  transition-timing-function: ease-out;
+  transition-duration: 0.5s;
+}
+
+.scale-img:hover {
+  transform: scale(1.15, 1.15);
+  cursor: pointer;
+}
+
 .color_sample_wrapper {
   display: -webkit-flex;
   display: -moz-flex;
