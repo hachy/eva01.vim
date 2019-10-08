@@ -1,39 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>eva01.vim</title>
-    <meta name="description" content="dark vim colorscheme">
-    <link rel="stylesheet" href="assets/main.css">
+    <meta name="description" content="dark vim colorscheme" />
+    <link rel="stylesheet" href="assets/main.css" />
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
   <body>
-
     <header class="site-header" role="banner">
       <div class="wrapper">
         <h1 class="site-title">eva01.vim</h1>
         <p>A dark colorscheme for vim</p>
-        <p><a class="github-button" href="https://github.com/hachy/eva01.vim" data-icon="octicon-star" data-style="mega" data-count-href="/hachy/eva01.vim/stargazers" data-count-api="/repos/hachy/eva01.vim#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star hachy/eva01.vim on GitHub">Star</a></p>
-        <p><a class="github-button" href="https://github.com/hachy/eva01.vim/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download hachy/eva01.vim on GitHub">Download</a></p>
+        <a
+          class="github-button"
+          href="https://github.com/hachy/eva01.vim"
+          data-size="large"
+          data-show-count="true"
+          aria-label="Star hachy/eva01.vim on GitHub"
+          >Star</a
+        >
+      </div>
     </header>
 
-    <main class="content" aria-label="Content">
-    <div class="wrapper">
-      <h3>Screenshots</h3>
-      Ruby
-      <img src="assets/images/screenshots_rails.png" alt="rails screenshots">
-      html
-      <img src="assets/images/screenshots_html.png" alt="rails screenshots">
-    </div>
+    <main aria-label="Content">
+      <div class="wrapper">
+        <div class="tabs">
+          <input id="tab1" type="radio" name="tab_item" checked />
+          <label class="tab_item" for="tab1">eva01.vim</label>
+          <input id="tab2" type="radio" name="tab_item" />
+          <label class="tab_item" for="tab2">eva01-LCL.vim</label>
+
+          <div class="panel">
+            <div id="panel1" class="tab_content">
+              <div class="color_sample_wrapper">
+                <div class="color_sample color01"></div>
+                <div class="color_sample color02"></div>
+                <div class="color_sample color03"></div>
+                <div class="color_sample color04"></div>
+                <div class="color_sample color05"></div>
+                <div class="color_sample color06"></div>
+                <div class="color_sample color07"></div>
+                <div class="color_sample color08"></div>
+                <!-- <div class="color_sample color09"></div> -->
+                <div class="color_sample color10"></div>
+                <div class="color_sample color11"></div>
+                <div class="color_sample color12"></div>
+                <div class="color_sample color13"></div>
+              </div>
+
+              <h3>Screenshots</h3>
+              html/css
+              <img
+                src="assets/images/screenshot_html.png"
+                alt="html screenshots"
+              />
+              Ruby
+              <img
+                src="assets/images/screenshot_rails.png"
+                alt="rails screenshots"
+              />
+            </div>
+
+            <div id="panel2" class="tab_content">
+              <div class="color_sample_wrapper">
+                <div class="color_sample color01_lcl"></div>
+                <div class="color_sample color02_lcl"></div>
+                <div class="color_sample color03_lcl"></div>
+                <div class="color_sample color04_lcl"></div>
+                <div class="color_sample color05_lcl"></div>
+                <div class="color_sample color06_lcl"></div>
+                <div class="color_sample color07_lcl"></div>
+                <div class="color_sample color08_lcl"></div>
+                <div class="color_sample color09_lcl"></div>
+                <div class="color_sample color10_lcl"></div>
+                <div class="color_sample color11_lcl"></div>
+                <div class="color_sample color12_lcl"></div>
+                <div class="color_sample color13_lcl"></div>
+              </div>
+
+              <h3>Screenshots</h3>
+              html/css
+              <img
+                src="assets/images/screenshot_html_lcl.png"
+                alt="html/css screenshots"
+              />
+              Ruby
+              <img
+                src="assets/images/screenshot_rails_lcl.png"
+                alt="rails screenshots"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer class="site-footer">
       <div class="wrapper">
-        © 2017 hachy
+        © 2019 hachy
       </div>
     </footer>
-
   </body>
 </html>

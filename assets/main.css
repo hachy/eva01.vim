@@ -1,32 +1,56 @@
 @charset "UTF-8";
 
 * {
-  box-sizing: border-box;
   -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font: 400 16px/1.5 "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", Roboto, Helvetica, Arial, sans-serif;
   color: #fff;
-  background: linear-gradient(-46deg, #afff87, #af5fff);
+  font: 400 16px/1.5 '游ゴシック体', 'Yu Gothic', YuGothic, 'ヒラギノ角ゴ Pro',
+    'Hiragino Kaku Gothic Pro', Roboto, Helvetica, Arial, sans-serif;
+  background: #1c1c1c;
   -webkit-text-size-adjust: 100%;
-  -webkit-font-feature-settings: "kern" 1;
-  -moz-font-feature-settings: "kern" 1;
-  -o-font-feature-settings: "kern" 1;
-  font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: 'kern' 1;
+  -moz-font-feature-settings: 'kern' 1;
+  -o-font-feature-settings: 'kern' 1;
+  font-feature-settings: 'kern' 1;
   font-kerning: normal;
 }
 
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure {
   margin-bottom: 15px;
 }
 
@@ -44,27 +68,194 @@ img {
 }
 
 /* Clearfix */
-.wrapper:after, .footer-col-wrapper:after {
-  content: "";
+.wrapper:after,
+.footer-col-wrapper:after {
   display: table;
   clear: both;
+  content: '';
 }
 
 .site-header {
-  text-align: center;
   margin: 80px 0 0;
+  text-align: center;
 }
 
 .site-title {
+  margin-bottom: 20px;
   color: #fff;
-  font-size: 46px;
   font-weight: 1000;
+  font-size: 46px;
   line-height: 56px;
   letter-spacing: -1px;
-  margin-bottom: 20px;
 }
 
 .site-footer {
-  text-align: center;
   margin-bottom: 50px;
+  text-align: center;
+}
+
+.tabs {
+  margin: 70px 0 0 0;
+}
+
+.tab_item {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 40px;
+  margin-bottom: 40px;
+  color: #666;
+  line-height: 40px;
+  text-align: center;
+  border-bottom: 2px solid #666;
+  cursor: pointer;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+input[name='tab_item'] {
+  display: none;
+}
+
+.tab_content {
+  display: none;
+  clear: both;
+  padding: 40px;
+  overflow: hidden;
+}
+
+#tab1:checked ~ .panel #panel1,
+#tab2:checked ~ .panel #panel2 {
+  display: block;
+}
+
+.tabs input:checked + .tab_item {
+  color: #fff;
+  border-bottom: 2px solid #bc7efa;
+}
+
+.color_sample_wrapper {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.color_sample {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  background: #fff;
+  border-radius: 10%;
+}
+
+.color01 {
+  background: #af5fff;
+}
+
+.color02 {
+  background: #d75fff;
+}
+
+.color03 {
+  background: #875faf;
+}
+
+.color04 {
+  background: #87ff5f;
+}
+
+.color05 {
+  background: #afff87;
+}
+
+.color06 {
+  background: #afafff;
+}
+
+.color07 {
+  background: #d75f87;
+}
+
+.color08 {
+  background: #d7af5f;
+}
+
+/* .color09 { */
+/*   background: #ffea00; */
+/* } */
+
+.color10 {
+  background: #afd7af;
+}
+
+.color11 {
+  background: #878787;
+}
+
+.color12 {
+  background: #d0d0d0;
+}
+
+.color13 {
+  background: #1c1c1c;
+  border: 1px solid #fff;
+}
+
+.color01_lcl {
+  background: #bc7efa;
+}
+
+.color02_lcl {
+  background: #c993ff;
+}
+
+.color03_lcl {
+  background: #875faf;
+}
+
+.color04_lcl {
+  background: #76ff03;
+}
+
+.color05_lcl {
+  background: #aeea00;
+}
+
+.color06_lcl {
+  background: #90b1fd;
+}
+
+.color07_lcl {
+  background: #ef5350;
+}
+
+.color08_lcl {
+  background: #ffb300;
+}
+
+.color09_lcl {
+  background: #ffea00;
+}
+
+.color10_lcl {
+  background: #c0ca33;
+}
+
+.color11_lcl {
+  background: #9e9e9e;
+}
+
+.color12_lcl {
+  background: #d7d1dc;
+}
+
+.color13_lcl {
+  background: #1c1c1c;
+  border: 1px solid #fff;
 }
