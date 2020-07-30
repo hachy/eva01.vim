@@ -60,7 +60,7 @@ hi WarningMsg ctermfg=168 ctermbg=NONE cterm=bold guifg=#EF5350 guibg=NONE gui=b
 hi WildMenu ctermfg=119 ctermbg=NONE cterm=NONE guifg=#76FF03 guibg=NONE gui=NONE
 "}}}
 " Syntax highlighting"{{{
-hi Comment ctermfg=102 ctermbg=NONE cterm=NONE guifg=#9E9E9E guibg=NONE gui=italic
+hi Comment ctermfg=102 ctermbg=NONE cterm=NONE guifg=#9E9E9E guibg=NONE gui=NONE
 hi Constant ctermfg=156 ctermbg=NONE cterm=NONE guifg=#AEEA00 guibg=NONE gui=NONE
 hi String ctermfg=151 ctermbg=NONE cterm=NONE guifg=#C0CA33 guibg=NONE gui=NONE
 hi Number ctermfg=179 ctermbg=NONE cterm=NONE guifg=#FFB300 guibg=NONE gui=NONE
