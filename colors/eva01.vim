@@ -6,11 +6,11 @@
 set background=dark
 highlight clear
 
-if exists("syntax_on")
+if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = "eva01"
+let g:colors_name = 'eva01'
 
 " General colors"{{{
 hi ColorColumn ctermfg=NONE ctermbg=97 cterm=NONE guifg=NONE guibg=#875FAF gui=NONE
