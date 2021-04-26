@@ -45,10 +45,10 @@ hi PmenuThumb ctermfg=NONE ctermbg=119 cterm=NONE guifg=NONE guibg=#76FF03 gui=N
 hi Question ctermfg=119 ctermbg=NONE cterm=underline guifg=#76FF03 guibg=NONE gui=underline
 hi Search ctermfg=16 ctermbg=147 cterm=bold guifg=#000000 guibg=#90B1FD gui=bold
 hi SpecialKey ctermfg=97 ctermbg=NONE cterm=NONE guifg=#875FAF guibg=NONE gui=NONE
-hi SpellBad ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline,italic
-hi SpellCap ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline,italic
-hi SpellLocal ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline,italic
-hi SpellRare ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline,italic
+hi SpellBad ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline
+hi SpellCap ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline
+hi SpellLocal ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline
+hi SpellRare ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline
 hi StatusLine ctermfg=135 ctermbg=16 cterm=NONE guifg=#BC7EFA guibg=#000000 gui=NONE
 hi StatusLineNC ctermfg=102 ctermbg=16 cterm=NONE guifg=#9E9E9E guibg=#000000 gui=NONE
 hi TabLine ctermfg=102 ctermbg=16 cterm=NONE guifg=#9E9E9E guibg=#000000 gui=NONE
