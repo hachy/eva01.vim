@@ -49,11 +49,11 @@ hi SpellBad ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gu
 hi SpellCap ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline
 hi SpellLocal ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline
 hi SpellRare ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline
-hi StatusLine ctermfg=135 ctermbg=16 cterm=NONE guifg=#BC7EFA guibg=#000000 gui=NONE
+hi StatusLine ctermfg=135 ctermbg=16 cterm=NONE guifg=#9D80FF guibg=#000000 gui=NONE
 hi StatusLineNC ctermfg=102 ctermbg=16 cterm=NONE guifg=#9E9E9E guibg=#000000 gui=NONE
 hi TabLine ctermfg=102 ctermbg=16 cterm=NONE guifg=#9E9E9E guibg=#000000 gui=NONE
 hi TabLineFill ctermfg=102 ctermbg=16 cterm=NONE guifg=#9E9E9E guibg=#000000 gui=NONE
-hi TabLineSel ctermfg=135 ctermbg=NONE cterm=NONE guifg=#BC7EFA guibg=NONE gui=NONE
+hi TabLineSel ctermfg=135 ctermbg=NONE cterm=NONE guifg=#9D80FF guibg=NONE gui=NONE
 hi Title ctermfg=11 ctermbg=NONE cterm=NONE guifg=#FFEA00 guibg=NONE gui=NONE
 hi Visual ctermfg=119 ctermbg=97 cterm=bold guifg=#76FF03 guibg=#875FAF gui=bold
 hi WarningMsg ctermfg=168 ctermbg=NONE cterm=bold guifg=#EF5350 guibg=NONE gui=bold
@@ -64,7 +64,7 @@ hi Comment ctermfg=102 ctermbg=NONE cterm=NONE guifg=#9E9E9E guibg=NONE gui=NONE
 hi Constant ctermfg=156 ctermbg=NONE cterm=NONE guifg=#AEEA00 guibg=NONE gui=NONE
 hi String ctermfg=151 ctermbg=NONE cterm=NONE guifg=#C0CA33 guibg=NONE gui=NONE
 hi Number ctermfg=179 ctermbg=NONE cterm=NONE guifg=#EBA500 guibg=NONE gui=NONE
-hi PreProc ctermfg=135 ctermbg=NONE cterm=NONE guifg=#BC7EFA guibg=NONE gui=NONE
+hi PreProc ctermfg=135 ctermbg=NONE cterm=NONE guifg=#9D80FF guibg=NONE gui=NONE
 hi Identifier ctermfg=147 ctermbg=NONE cterm=NONE guifg=#90B1FD guibg=NONE gui=NONE
 hi Statement ctermfg=171 ctermbg=NONE cterm=NONE guifg=#C993FF guibg=NONE gui=NONE
 hi Type ctermfg=156 ctermbg=NONE cterm=NONE guifg=#AEEA00 guibg=NONE gui=NONE
