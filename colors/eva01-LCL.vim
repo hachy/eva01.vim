@@ -63,12 +63,12 @@ hi WildMenu ctermfg=119 ctermbg=NONE cterm=NONE guifg=#76FF03 guibg=NONE gui=NON
 hi Comment ctermfg=102 ctermbg=NONE cterm=NONE guifg=#9E9E9E guibg=NONE gui=NONE
 hi Constant ctermfg=156 ctermbg=NONE cterm=NONE guifg=#AEEA00 guibg=NONE gui=NONE
 hi String ctermfg=151 ctermbg=NONE cterm=NONE guifg=#C0CA33 guibg=NONE gui=NONE
-hi Number ctermfg=179 ctermbg=NONE cterm=NONE guifg=#FFB300 guibg=NONE gui=NONE
+hi Number ctermfg=179 ctermbg=NONE cterm=NONE guifg=#EBA500 guibg=NONE gui=NONE
 hi PreProc ctermfg=135 ctermbg=NONE cterm=NONE guifg=#BC7EFA guibg=NONE gui=NONE
 hi Identifier ctermfg=147 ctermbg=NONE cterm=NONE guifg=#90B1FD guibg=NONE gui=NONE
 hi Statement ctermfg=171 ctermbg=NONE cterm=NONE guifg=#C993FF guibg=NONE gui=NONE
 hi Type ctermfg=156 ctermbg=NONE cterm=NONE guifg=#AEEA00 guibg=NONE gui=NONE
-hi Special ctermfg=179 ctermbg=NONE cterm=NONE guifg=#FFB300 guibg=NONE gui=NONE
+hi Special ctermfg=179 ctermbg=NONE cterm=NONE guifg=#EBA500 guibg=NONE gui=NONE
 hi Underlined ctermfg=119 ctermbg=NONE cterm=underline guifg=#76FF03 guibg=NONE gui=underline
 hi Error ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline
 hi Todo ctermfg=168 ctermbg=NONE cterm=bold guifg=#EF5350 guibg=NONE gui=bold
@@ -160,6 +160,6 @@ hi link goReceiverType Identifier
 "}}}
 " vim-gitgutter"{{{
 hi GitGutterAdd ctermfg=156 ctermbg=NONE cterm=bold guifg=#AEEA00 guibg=NONE gui=bold
-hi GitGutterChange ctermfg=179 ctermbg=NONE cterm=bold guifg=#FFB300 guibg=NONE gui=bold
+hi GitGutterChange ctermfg=179 ctermbg=NONE cterm=bold guifg=#EBA500 guibg=NONE gui=bold
 hi GitGutterDelete ctermfg=168 ctermbg=NONE cterm=bold guifg=#EF5350 guibg=NONE gui=bold
 "}}}
