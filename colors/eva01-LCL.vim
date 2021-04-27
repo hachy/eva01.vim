@@ -170,3 +170,6 @@ hi GitGutterAdd ctermfg=156 ctermbg=NONE cterm=bold guifg=#AEEA00 guibg=NONE gui
 hi GitGutterChange ctermfg=179 ctermbg=NONE cterm=bold guifg=#EBA500 guibg=NONE gui=bold
 hi GitGutterDelete ctermfg=168 ctermbg=NONE cterm=bold guifg=#EF5350 guibg=NONE gui=bold
 "}}}
+" coc{{{
+hi CocHintSign ctermfg=136 guifg=#A57400
+"}}}
