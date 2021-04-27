@@ -73,6 +73,7 @@ hi Underlined ctermfg=119 ctermbg=NONE cterm=underline guifg=#76FF03 guibg=NONE 
 hi Error ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline
 hi Todo ctermfg=168 ctermbg=NONE cterm=bold guifg=#EF5350 guibg=NONE gui=bold
 hi Include ctermfg=69 ctermbg=NONE cterm=NONE guifg=#8794FF guibg=NONE gui=NONE
+hi SpecialComment ctermfg=102 ctermbg=NONE cterm=underline guifg=#9E9E9E guibg=NONE gui=underline
 "hi Ignore
 hi link Character Constant
 hi link Boolean Constant
@@ -93,7 +94,6 @@ hi link Typedef Type
 hi link SpecialChar Special
 hi link Tag Special
 hi link Delimiter Special
-hi link SpecialComment Special
 hi link Debug Special
 "}}}
 " HTML"{{{
