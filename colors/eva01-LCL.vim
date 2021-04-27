@@ -158,6 +158,13 @@ hi link goFunctionCall Identifier
 hi link goMethodCall Identifier
 hi link goReceiverType Identifier
 "}}}
+" rust{{{
+hi link rustModPath Preproc
+hi link rustAttribute Include
+hi link rustDerive Include
+hi link rustDeriveTrait Include
+hi link rustFuncName Constant
+"}}}
 " vim-gitgutter"{{{
 hi GitGutterAdd ctermfg=156 ctermbg=NONE cterm=bold guifg=#AEEA00 guibg=NONE gui=bold
 hi GitGutterChange ctermfg=179 ctermbg=NONE cterm=bold guifg=#EBA500 guibg=NONE gui=bold
