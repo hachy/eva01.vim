@@ -72,6 +72,7 @@ hi Special ctermfg=179 ctermbg=NONE cterm=NONE guifg=#EBA500 guibg=NONE gui=NONE
 hi Underlined ctermfg=119 ctermbg=NONE cterm=underline guifg=#76FF03 guibg=NONE gui=underline
 hi Error ctermfg=168 ctermbg=NONE cterm=underline guifg=#EF5350 guibg=NONE gui=underline
 hi Todo ctermfg=168 ctermbg=NONE cterm=bold guifg=#EF5350 guibg=NONE gui=bold
+hi Include ctermfg=69 ctermbg=NONE cterm=NONE guifg=#8794FF guibg=NONE gui=NONE
 "hi Ignore
 hi link Character Constant
 hi link Boolean Constant
@@ -83,9 +84,8 @@ hi link Operator Statement
 hi link Keyword Statement
 hi link Label Statement
 hi link Exception Statement
-hi link Include Preproc
 hi link Define Preproc
-hi link Macro PreProc
+hi link Macro Include
 hi link PreCondit PreProc
 hi link StorageClass Type
 hi link Structure Type
