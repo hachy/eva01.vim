@@ -174,3 +174,7 @@ hi GitGutterDelete ctermfg=168 ctermbg=NONE cterm=bold guifg=#EF5350 guibg=NONE 
 " coc{{{
 hi CocHintSign ctermfg=136 guifg=#A57400
 "}}}
+" markdown{{{
+hi def link markdownItalic NONE
+hi def link markdownBoldItalic NONE
+"}}}
