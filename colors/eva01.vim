@@ -49,11 +49,11 @@ hi SpellBad ctermfg=168 ctermbg=NONE cterm=underline guifg=#D75F87 guibg=NONE gu
 hi SpellCap ctermfg=168 ctermbg=NONE cterm=underline guifg=#D75F87 guibg=NONE gui=underline
 hi SpellLocal ctermfg=168 ctermbg=NONE cterm=underline guifg=#D75F87 guibg=NONE gui=underline
 hi SpellRare ctermfg=168 ctermbg=NONE cterm=underline guifg=#D75F87 guibg=NONE gui=underline
-hi StatusLine ctermfg=135 ctermbg=233 cterm=NONE guifg=#AF5FFF guibg=#121212 gui=NONE
+hi StatusLine ctermfg=63 ctermbg=233 cterm=NONE guifg=#9d78ff guibg=#121212 gui=NONE
 hi StatusLineNC ctermfg=240 ctermbg=233 cterm=NONE guifg=#585858 guibg=#121212 gui=NONE
 hi TabLine ctermfg=102 ctermbg=235 cterm=NONE guifg=#878787 guibg=#262626 gui=NONE
 hi TabLineFill ctermfg=102 ctermbg=235 cterm=NONE guifg=#878787 guibg=#262626 gui=NONE
-hi TabLineSel ctermfg=135 ctermbg=NONE cterm=NONE guifg=#AF5FFF guibg=NONE gui=NONE
+hi TabLineSel ctermfg=63 ctermbg=NONE cterm=NONE guifg=#9d78ff guibg=NONE gui=NONE
 hi Title ctermfg=168 ctermbg=NONE cterm=bold guifg=#D75F87 guibg=NONE gui=bold
 hi Visual ctermfg=119 ctermbg=97 cterm=bold guifg=#87FF5F guibg=#875FAF gui=bold
 hi WarningMsg ctermfg=168 ctermbg=NONE cterm=bold guifg=#D75F87 guibg=NONE gui=bold
@@ -66,7 +66,7 @@ hi String ctermfg=151 ctermbg=NONE cterm=NONE guifg=#AFD7AF guibg=NONE gui=NONE
 hi Number ctermfg=179 ctermbg=NONE cterm=NONE guifg=#D7AF5F guibg=NONE gui=NONE
 hi PreProc ctermfg=135 ctermbg=NONE cterm=NONE guifg=#AF5FFF guibg=NONE gui=NONE
 hi Identifier ctermfg=147 ctermbg=NONE cterm=NONE guifg=#AFAFFF guibg=NONE gui=NONE
-hi Statement ctermfg=171 ctermbg=NONE cterm=NONE guifg=#D75FFF guibg=NONE gui=NONE
+hi Statement ctermfg=63 ctermbg=NONE cterm=NONE guifg=#9d78ff guibg=NONE gui=NONE
 hi Type ctermfg=156 ctermbg=NONE cterm=NONE guifg=#AFFF87 guibg=NONE gui=NONE
 hi Special ctermfg=179 ctermbg=NONE cterm=NONE guifg=#D7AF5F guibg=NONE gui=NONE
 hi Underlined ctermfg=119 ctermbg=NONE cterm=underline guifg=#87FF5F guibg=NONE gui=underline
@@ -84,7 +84,7 @@ hi link Keyword Statement
 hi link Label Statement
 hi link Exception Statement
 hi link Include Preproc
-hi link Define Preproc
+hi link Define Statement
 hi link Macro PreProc
 hi link PreCondit PreProc
 hi link StorageClass Type
@@ -92,7 +92,7 @@ hi link Structure Type
 hi link Typedef Type
 hi link SpecialChar Special
 hi link Tag Special
-hi link Delimiter Special
+hi link Delimiter Statement
 hi link SpecialComment Special
 hi link Debug Special
 "}}}
