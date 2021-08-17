@@ -159,10 +159,8 @@ hi link goMethodCall Identifier
 hi link goReceiverType Identifier
 "}}}
 " Markdown"{{{
-hi markdownH3 ctermfg=135 ctermbg=NONE cterm=bold guifg=#AF5FFF guibg=NONE gui=bold
-hi markdownH4 ctermfg=135 ctermbg=NONE cterm=bold guifg=#AF5FFF guibg=NONE gui=bold
-hi markdownH5 ctermfg=135 ctermbg=NONE cterm=bold guifg=#AF5FFF guibg=NONE gui=bold
-hi markdownH6 ctermfg=135 ctermbg=NONE cterm=bold guifg=#AF5FFF guibg=NONE gui=bold
+hi def link markdownItalic NONE
+hi def link markdownBoldItalic NONE
 "}}}
 " vim-gitgutter"{{{
 hi GitGutterAdd ctermfg=156 ctermbg=NONE cterm=bold guifg=#AFFF87 guibg=NONE gui=bold
