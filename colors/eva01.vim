@@ -61,14 +61,14 @@ hi WildMenu ctermfg=119 ctermbg=NONE cterm=NONE guifg=#87FF5F guibg=NONE gui=NON
 "}}}
 " Syntax highlighting"{{{
 hi Comment ctermfg=102 ctermbg=NONE cterm=NONE guifg=#878787 guibg=NONE gui=NONE
-hi Constant ctermfg=156 ctermbg=NONE cterm=NONE guifg=#AFFF87 guibg=NONE gui=NONE
+hi Constant ctermfg=208 ctermbg=NONE cterm=NONE guifg=#d99145 guibg=NONE gui=NONE
 hi String ctermfg=151 ctermbg=NONE cterm=NONE guifg=#AFD7AF guibg=NONE gui=NONE
-hi Number ctermfg=179 ctermbg=NONE cterm=NONE guifg=#D7AF5F guibg=NONE gui=NONE
+hi Number ctermfg=208 ctermbg=NONE cterm=NONE guifg=#d99145 guibg=NONE gui=NONE
 hi PreProc ctermfg=129 ctermbg=NONE cterm=NONE guifg=#c25ae6 guibg=NONE gui=NONE
 hi Identifier ctermfg=147 ctermbg=NONE cterm=NONE guifg=#AFAFFF guibg=NONE gui=NONE
 hi Statement ctermfg=63 ctermbg=NONE cterm=NONE guifg=#9d78ff guibg=NONE gui=NONE
 hi Type ctermfg=156 ctermbg=NONE cterm=NONE guifg=#AFFF87 guibg=NONE gui=NONE
-hi Special ctermfg=179 ctermbg=NONE cterm=NONE guifg=#D7AF5F guibg=NONE gui=NONE
+hi Special ctermfg=208 ctermbg=NONE cterm=NONE guifg=#d99145 guibg=NONE gui=NONE
 hi Underlined ctermfg=119 ctermbg=NONE cterm=underline guifg=#87FF5F guibg=NONE gui=underline
 hi Error ctermfg=168 ctermbg=NONE cterm=underline guifg=#D75F87 guibg=NONE gui=underline
 hi Todo ctermfg=168 ctermbg=NONE cterm=bold guifg=#D75F87 guibg=NONE gui=bold
@@ -164,6 +164,6 @@ hi def link markdownBoldItalic NONE
 "}}}
 " vim-gitgutter"{{{
 hi GitGutterAdd ctermfg=156 ctermbg=NONE cterm=bold guifg=#AFFF87 guibg=NONE gui=bold
-hi GitGutterChange ctermfg=179 ctermbg=NONE cterm=bold guifg=#D7AF5F guibg=NONE gui=bold
+hi GitGutterChange ctermfg=208 ctermbg=NONE cterm=bold guifg=#d99145 guibg=NONE gui=bold
 hi GitGutterDelete ctermfg=168 ctermbg=NONE cterm=bold guifg=#D75F87 guibg=NONE gui=bold
 "}}}
