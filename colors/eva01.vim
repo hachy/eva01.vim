@@ -121,21 +121,9 @@ hi javaScriptFuncDef ctermfg=168 ctermbg=NONE cterm=NONE guifg=#db6088 guibg=NON
 hi link typescriptTemplateSB Number
 "}}}
 " Ruby"{{{
-hi rubyRegexp ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=NONE gui=bold
-hi rubyRegexpDelimiter ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=NONE gui=bold
-hi rubyIdentifier ctermfg=252 ctermbg=NONE cterm=bold guifg=#D0D0D0 guibg=NONE gui=bold
-hi link rubyAccess Special
-hi link rubyConstant Constant
-hi link rubyFunction Constant
-hi link rubyKeyword Number
-hi link rubySymbol Identifier
-hi link rubySymbolDelimiter Delimiter
-hi link rubyClassVariable Identifier
-hi link rubyInstanceVariable Identifier
-hi link rubyBlockParameter Normal
-hi link rubyBoolean Normal
-hi link rubyPseudoVariable Constant
-hi link rubyPredefinedVariable Type
+hi link rubyControl Preproc
+hi link rubyException Preproc
+hi link rubyExceptionHandler Preproc
 "}}}
 " eruby"{{{
 hi link erubyDelimiter Special
