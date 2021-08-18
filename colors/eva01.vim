@@ -137,13 +137,7 @@ hi link pythonDecoratorName PreProc
 hi link phpParent Normal
 "}}}
 " go"{{{
-hi link goDirective Preproc
-hi link goDeclaration Preproc
-hi link goField Special
-hi link goFunction Type
-hi link goFunctionCall Identifier
-hi link goMethodCall Identifier
-hi link goReceiverType Identifier
+hi link goDeclType Preproc
 "}}}
 " Markdown"{{{
 hi def link markdownItalic NONE
