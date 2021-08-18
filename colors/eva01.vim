@@ -19,10 +19,10 @@ hi Cursor ctermfg=16 ctermbg=119 cterm=NONE guifg=#000000 guibg=#87FF5F gui=NONE
 hi CursorIM ctermfg=NONE ctermbg=168 cterm=NONE guifg=NONE guibg=#db6088 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#262626 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#262626 gui=NONE
-hi Directory ctermfg=156 ctermbg=NONE cterm=NONE guifg=#AFFF87 guibg=NONE gui=NONE
-hi DiffAdd ctermfg=234 ctermbg=156 cterm=NONE guifg=#1C1C1C guibg=#AFFF87 gui=NONE
+hi Directory ctermfg=156 ctermbg=NONE cterm=NONE guifg=#9cda7c guibg=NONE gui=NONE
+hi DiffAdd ctermfg=234 ctermbg=156 cterm=NONE guifg=#1C1C1C guibg=#9cda7c gui=NONE
 hi DiffChange ctermfg=234 ctermbg=175 cterm=NONE guifg=#1C1C1C guibg=#D787AF gui=NONE
-hi DiffDelete ctermfg=156 ctermbg=NONE cterm=NONE guifg=#AFFF87 guibg=NONE gui=NONE
+hi DiffDelete ctermfg=156 ctermbg=NONE cterm=NONE guifg=#9cda7c guibg=NONE gui=NONE
 hi DiffText ctermfg=234 ctermbg=168 cterm=bold guifg=#1C1C1C guibg=#db6088 gui=bold
 hi EndOfBuffer ctermfg=119 ctermbg=NONE cterm=NONE guifg=#87FF5F guibg=NONE gui=NONE
 hi ErrorMsg ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=NONE gui=bold
@@ -66,6 +66,7 @@ hi String ctermfg=151 ctermbg=NONE cterm=NONE guifg=#AFD7AF guibg=NONE gui=NONE
 hi Number ctermfg=208 ctermbg=NONE cterm=NONE guifg=#d99145 guibg=NONE gui=NONE
 hi PreProc ctermfg=129 ctermbg=NONE cterm=NONE guifg=#c25ae6 guibg=NONE gui=NONE
 hi Identifier ctermfg=75 ctermbg=NONE cterm=NONE guifg=#7ca8de guibg=NONE gui=NONE
+hi Function ctermfg=156 ctermbg=NONE cterm=NONE guifg=#9cda7c guibg=NONE gui=NONE
 hi Statement ctermfg=63 ctermbg=NONE cterm=NONE guifg=#9d78ff guibg=NONE gui=NONE
 hi Type ctermfg=75 ctermbg=NONE cterm=NONE guifg=#7ca8de guibg=NONE gui=NONE
 hi Special ctermfg=208 ctermbg=NONE cterm=NONE guifg=#d99145 guibg=NONE gui=NONE
@@ -76,7 +77,6 @@ hi Todo ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=NONE gui=bold
 hi link Character Constant
 hi link Boolean Constant
 hi link Float Number
-hi link Function Identifier
 hi link Conditional Statement
 hi link Repeat Statement
 hi link Operator Statement
@@ -163,7 +163,7 @@ hi def link markdownItalic NONE
 hi def link markdownBoldItalic NONE
 "}}}
 " vim-gitgutter"{{{
-hi GitGutterAdd ctermfg=156 ctermbg=NONE cterm=bold guifg=#AFFF87 guibg=NONE gui=bold
+hi GitGutterAdd ctermfg=156 ctermbg=NONE cterm=bold guifg=#9cda7c guibg=NONE gui=bold
 hi GitGutterChange ctermfg=208 ctermbg=NONE cterm=bold guifg=#d99145 guibg=NONE gui=bold
 hi GitGutterDelete ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=NONE gui=bold
 "}}}
