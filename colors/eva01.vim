@@ -129,13 +129,9 @@ hi link rubyExceptionHandler Preproc
 hi link erubyDelimiter Special
 "}}}
 " Python"{{{
-hi link pythonFunction Constant
-"}}}
-" CoffeeScript"{{{
-hi link coffeeBlock Preproc
-hi link coffeeSpecialIdent Normal
-hi link coffeeObject Constant
-" hi link coffeeSpecialIdent Number
+hi link pythonBuiltin Type
+hi link pythonDecorator PreProc
+hi link pythonDecoratorName PreProc
 "}}}
 " php"{{{
 hi link phpParent Normal
