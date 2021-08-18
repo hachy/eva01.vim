@@ -117,6 +117,9 @@ hi link javaScriptParens Preproc
 hi link javaScriptFuncArg Normal
 hi javaScriptFuncDef ctermfg=168 ctermbg=NONE cterm=NONE guifg=#db6088 guibg=NONE gui=NONE
 "}}}
+" TypeScript{{{
+hi link typescriptTemplateSB Number
+"}}}
 " Ruby"{{{
 hi rubyRegexp ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=NONE gui=bold
 hi rubyRegexpDelimiter ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=NONE gui=bold
