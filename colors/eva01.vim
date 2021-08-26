@@ -97,13 +97,11 @@ hi link SpecialComment Special
 hi link Debug Special
 "}}}
 " HTML"{{{
-hi link htmlTag Statement
-hi link htmlTagName Constant
-hi link htmlEndTag Statement
-hi link htmlSpecialTagName Number
-hi link htmlArg Statement
-hi link javaScript Normal
-hi htmlItalic ctermfg=252 ctermbg=NONE cterm=NONE
+hi link htmlTag PreProc
+hi link htmlEndTag PreProc
+hi link htmlTitle Number
+hi link htmlH1 Number
+hi htmlLink ctermfg=156 ctermbg=NONE cterm=underline guifg=#9cda7c guibg=NONE gui=underline
 "}}}
 " XML"{{{
 hi link xmlEndTag Keyword
