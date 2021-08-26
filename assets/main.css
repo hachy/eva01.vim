@@ -21,14 +21,13 @@ dd,
 ol,
 ul,
 figure {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 body {
+  font: 400 16px/1.5 '游ゴシック体', 'Yu Gothic', YuGothic, 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', Roboto, Helvetica, Arial, sans-serif;
   color: #fff;
-  font: 400 16px/1.5 '游ゴシック体', 'Yu Gothic', YuGothic, 'ヒラギノ角ゴ Pro',
-    'Hiragino Kaku Gothic Pro', Roboto, Helvetica, Arial, sans-serif;
   background: #1c1c1c;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: 'kern' 1;
@@ -61,15 +60,15 @@ img {
 
 .wrapper {
   max-width: 1020px;
-  margin-right: auto;
-  margin-left: auto;
   padding-right: 30px;
   padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* Clearfix */
-.wrapper:after,
-.footer-col-wrapper:after {
+.wrapper::after,
+.footer-col-wrapper::after {
   display: table;
   clear: both;
   content: '';
@@ -82,10 +81,10 @@ img {
 
 .site-title {
   margin-bottom: 20px;
-  color: #fff;
-  font-weight: 1000;
   font-size: 46px;
+  font-weight: 1000;
   line-height: 56px;
+  color: #fff;
   letter-spacing: -1px;
 }
 
@@ -104,11 +103,11 @@ img {
   width: 50%;
   height: 40px;
   margin-bottom: 40px;
-  color: #666;
   line-height: 40px;
+  color: #666;
   text-align: center;
-  border-bottom: 2px solid #666;
   cursor: pointer;
+  border-bottom: 2px solid #666;
   -o-transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
@@ -121,9 +120,9 @@ input[name='tab_item'] {
 
 .tab_content {
   display: none;
-  clear: both;
   padding: 40px;
   overflow: hidden;
+  clear: both;
 }
 
 #tab1:checked ~ .panel #panel1,
@@ -138,14 +137,14 @@ input[name='tab_item'] {
 
 .scale-img {
   margin-bottom: 20px;
-  transform-origin: 50% 25%;
   transition-timing-function: ease-out;
   transition-duration: 0.5s;
+  transform-origin: 50% 25%;
 }
 
 .scale-img:hover {
-  transform: scale(1.15, 1.15);
   cursor: pointer;
+  transform: scale(1.15, 1.15);
 }
 
 .color_sample_wrapper {
