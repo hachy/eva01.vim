@@ -10,7 +10,7 @@ If you use [vim-plug](https://github.com/junegunn/vim-plug)
 Plug 'hachy/eva01.vim'
 ```
 
-Add this to your .vimrc/init.vim
+Add this to your .vimrc or init.vim
 
 ```vim
 colorscheme eva01
@@ -20,5 +20,5 @@ colorscheme eva01
 
 #### Screenshots
 
-![rails screenshots](https://hachy.github.io/eva01.vim/assets/images/screenshots_rails.png)
-![html screenshots](https://hachy.github.io/eva01.vim/assets/images/screenshots_html.png)
+![screenshot_1](https://hachy.github.io/eva01.vim/assets/images/screenshot_eva01_1.png)
+![screenshot_2](https://hachy.github.io/eva01.vim/assets/images/screenshot_eva01_2.png)
