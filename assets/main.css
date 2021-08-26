@@ -166,51 +166,51 @@ input[name='tab_item'] {
 }
 
 .color01 {
-  background: #af5fff;
+  background: #9d78ff;
 }
 
 .color02 {
-  background: #d75fff;
+  background: #c25ae6;
 }
 
 .color03 {
-  background: #875faf;
+  background: #cfa1ed;
 }
 
 .color04 {
-  background: #87ff5f;
+  background: #9cda7c;
 }
 
 .color05 {
-  background: #afff87;
+  background: #87ff5f;
 }
 
 .color06 {
-  background: #afafff;
+  background: #7ca8de;
 }
 
 .color07 {
-  background: #d75f87;
+  background: #d99145;
 }
 
 .color08 {
-  background: #d7af5f;
+  background: #db6088;
 }
 
-/* .color09 { */
-/*   background: #ffea00; */
-/* } */
-
-.color10 {
-  background: #afd7af;
-}
-
-.color11 {
+.color09 {
   background: #878787;
 }
 
+.color10 {
+  background: #bec7d1;
+}
+
+.color11 {
+  background: #6e4c28;
+}
+
 .color12 {
-  background: #d0d0d0;
+  background: #875faf;
 }
 
 .color13 {
