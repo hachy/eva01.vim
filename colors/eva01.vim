@@ -25,11 +25,11 @@ hi DiffChange ctermfg=234 ctermbg=175 cterm=NONE guifg=#1C1C1C guibg=#D787AF gui
 hi DiffDelete ctermfg=156 ctermbg=NONE cterm=NONE guifg=#9cda7c guibg=NONE gui=NONE
 hi DiffText ctermfg=234 ctermbg=168 cterm=bold guifg=#1C1C1C guibg=#db6088 gui=bold
 hi EndOfBuffer ctermfg=119 ctermbg=NONE cterm=NONE guifg=#87FF5F guibg=NONE gui=NONE
-hi ErrorMsg ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=NONE gui=bold
+hi ErrorMsg ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=#2b1211 gui=bold
 hi VertSplit ctermfg=97 ctermbg=NONE cterm=NONE guifg=#875FAF guibg=NONE gui=NONE
 hi Folded ctermfg=97 ctermbg=235 cterm=bold guifg=#875FAF guibg=#262626 gui=bold
 hi FoldColumn ctermfg=97 ctermbg=NONE cterm=bold guifg=#875FAF guibg=NONE gui=bold
-hi SignColumn ctermfg=NONE ctermbg=16 cterm=NONE guifg=NONE guibg=#000000 gui=NONE
+hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi IncSearch ctermfg=16 ctermbg=119 cterm=bold guifg=#000000 guibg=#87FF5F gui=bold
 hi LineNr ctermfg=240 ctermbg=233 cterm=NONE guifg=#585858 guibg=#121212 gui=NONE
 hi CursorLineNr ctermfg=102 ctermbg=233 cterm=bold guifg=#878787 guibg=#121212 gui=bold
@@ -38,7 +38,7 @@ hi ModeMsg ctermfg=119 ctermbg=NONE cterm=bold guifg=#87FF5F guibg=NONE gui=bold
 hi MoreMsg ctermfg=119 ctermbg=NONE cterm=bold guifg=#87FF5F guibg=NONE gui=bold
 hi NonText ctermfg=234 ctermbg=NONE cterm=NONE guifg=#6e4c28 guibg=NONE gui=NONE
 hi Normal ctermfg=252 ctermbg=NONE cterm=NONE guifg=#bec7d1 guibg=#1C1C1C gui=NONE
-hi Pmenu ctermfg=119 ctermbg=16 cterm=NONE guifg=#87FF5F guibg=#000000 gui=NONE
+hi Pmenu ctermfg=119 ctermbg=16 cterm=NONE guifg=#87FF5F guibg=#1b3313 gui=NONE
 hi PmenuSel ctermfg=16 ctermbg=119 cterm=NONE guifg=#000000 guibg=#87FF5F gui=NONE
 hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi PmenuThumb ctermfg=NONE ctermbg=119 cterm=NONE guifg=NONE guibg=#87FF5F gui=NONE
@@ -55,8 +55,8 @@ hi TabLine ctermfg=102 ctermbg=235 cterm=NONE guifg=#878787 guibg=#262626 gui=NO
 hi TabLineFill ctermfg=102 ctermbg=235 cterm=NONE guifg=#878787 guibg=#262626 gui=NONE
 hi TabLineSel ctermfg=63 ctermbg=NONE cterm=NONE guifg=#9d78ff guibg=NONE gui=NONE
 hi Title ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=NONE gui=bold
-hi Visual ctermfg=119 ctermbg=97 cterm=bold guifg=#87FF5F guibg=#875FAF gui=bold
-hi WarningMsg ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=NONE gui=bold
+hi Visual ctermfg=NONE ctermbg=97 cterm=bold guifg=NONE guibg=#535177 gui=bold
+hi WarningMsg ctermfg=226 ctermbg=NONE cterm=bold guifg=#d9d057 guibg=#2b2a11 gui=bold
 hi WildMenu ctermfg=119 ctermbg=NONE cterm=NONE guifg=#87FF5F guibg=NONE gui=NONE
 "}}}
 " Syntax highlighting"{{{
@@ -72,7 +72,7 @@ hi Type ctermfg=75 ctermbg=NONE cterm=NONE guifg=#7ca8de guibg=NONE gui=NONE
 hi Special ctermfg=208 ctermbg=NONE cterm=NONE guifg=#d99145 guibg=NONE gui=NONE
 hi Underlined ctermfg=119 ctermbg=NONE cterm=underline guifg=#87FF5F guibg=NONE gui=underline
 hi Error ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gui=underline
-hi Todo ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=NONE gui=bold
+hi Todo ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=#2b1211 gui=bold
 "hi Ignore
 hi link Character String
 hi link Boolean Constant
