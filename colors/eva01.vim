@@ -31,7 +31,7 @@ hi Folded ctermfg=97 ctermbg=235 cterm=bold guifg=#875FAF guibg=#262626 gui=bold
 hi FoldColumn ctermfg=97 ctermbg=NONE cterm=bold guifg=#875FAF guibg=NONE gui=bold
 hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi IncSearch ctermfg=16 ctermbg=119 cterm=bold guifg=#000000 guibg=#87FF5F gui=bold
-hi LineNr ctermfg=240 ctermbg=233 cterm=NONE guifg=#585858 guibg=#18181f gui=NONE
+hi LineNr ctermfg=240 ctermbg=233 cterm=NONE guifg=#535177 guibg=#18181f gui=NONE
 hi CursorLineNr ctermfg=102 ctermbg=16 cterm=bold guifg=#8784ad guibg=#000000 gui=bold
 hi MatchParen ctermfg=15 ctermbg=240 cterm=bold guifg=#FFFFFF guibg=#585858 gui=bold
 hi ModeMsg ctermfg=119 ctermbg=NONE cterm=bold guifg=#87FF5F guibg=NONE gui=bold
@@ -50,8 +50,8 @@ hi SpellBad ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gu
 hi SpellCap ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gui=underline
 hi SpellLocal ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gui=underline
 hi SpellRare ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gui=underline
-hi StatusLine ctermfg=63 ctermbg=233 cterm=NONE guifg=#9d78ff guibg=#121212 gui=NONE
-hi StatusLineNC ctermfg=240 ctermbg=233 cterm=NONE guifg=#585858 guibg=#121212 gui=NONE
+hi StatusLine ctermfg=63 ctermbg=16 cterm=NONE guifg=#9d78ff guibg=#000000 gui=NONE
+hi StatusLineNC ctermfg=240 ctermbg=16 cterm=NONE guifg=#535177 guibg=#000000 gui=NONE
 hi TabLine ctermfg=102 ctermbg=16 cterm=NONE guifg=#8784ad guibg=#000000 gui=NONE
 hi TabLineFill ctermfg=102 ctermbg=16 cterm=NONE guifg=#8784ad guibg=#000000 gui=NONE
 hi TabLineSel ctermfg=63 ctermbg=NONE cterm=NONE guifg=#9d78ff guibg=NONE gui=NONE
