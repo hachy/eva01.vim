@@ -32,7 +32,7 @@ hi FoldColumn ctermfg=97 ctermbg=NONE cterm=bold guifg=#875FAF guibg=NONE gui=bo
 hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi IncSearch ctermfg=16 ctermbg=119 cterm=bold guifg=#000000 guibg=#87FF5F gui=bold
 hi LineNr ctermfg=240 ctermbg=233 cterm=NONE guifg=#585858 guibg=#18181f gui=NONE
-hi CursorLineNr ctermfg=102 ctermbg=16 cterm=bold guifg=#878787 guibg=#000000 gui=bold
+hi CursorLineNr ctermfg=102 ctermbg=16 cterm=bold guifg=#8784ad guibg=#000000 gui=bold
 hi MatchParen ctermfg=15 ctermbg=240 cterm=bold guifg=#FFFFFF guibg=#585858 gui=bold
 hi ModeMsg ctermfg=119 ctermbg=NONE cterm=bold guifg=#87FF5F guibg=NONE gui=bold
 hi MoreMsg ctermfg=119 ctermbg=NONE cterm=bold guifg=#87FF5F guibg=NONE gui=bold
@@ -52,8 +52,8 @@ hi SpellLocal ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE 
 hi SpellRare ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gui=underline
 hi StatusLine ctermfg=63 ctermbg=233 cterm=NONE guifg=#9d78ff guibg=#121212 gui=NONE
 hi StatusLineNC ctermfg=240 ctermbg=233 cterm=NONE guifg=#585858 guibg=#121212 gui=NONE
-hi TabLine ctermfg=102 ctermbg=235 cterm=NONE guifg=#878787 guibg=#262626 gui=NONE
-hi TabLineFill ctermfg=102 ctermbg=235 cterm=NONE guifg=#878787 guibg=#262626 gui=NONE
+hi TabLine ctermfg=102 ctermbg=16 cterm=NONE guifg=#8784ad guibg=#000000 gui=NONE
+hi TabLineFill ctermfg=102 ctermbg=16 cterm=NONE guifg=#8784ad guibg=#000000 gui=NONE
 hi TabLineSel ctermfg=63 ctermbg=NONE cterm=NONE guifg=#9d78ff guibg=NONE gui=NONE
 hi Title ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=NONE gui=bold
 hi Visual ctermfg=NONE ctermbg=97 cterm=bold guifg=NONE guibg=#535177 gui=bold
@@ -61,7 +61,7 @@ hi WarningMsg ctermfg=226 ctermbg=NONE cterm=bold guifg=#d9d057 guibg=#2b2a11 gu
 hi WildMenu ctermfg=119 ctermbg=NONE cterm=NONE guifg=#87FF5F guibg=NONE gui=NONE
 "}}}
 " Syntax highlighting"{{{
-hi Comment ctermfg=102 ctermbg=NONE cterm=NONE guifg=#878787 guibg=NONE gui=NONE
+hi Comment ctermfg=102 ctermbg=NONE cterm=NONE guifg=#8784ad guibg=NONE gui=NONE
 hi Constant ctermfg=208 ctermbg=NONE cterm=NONE guifg=#d99145 guibg=NONE gui=NONE
 hi String ctermfg=183 ctermbg=NONE cterm=NONE guifg=#cfa1ed guibg=NONE gui=NONE
 hi Number ctermfg=208 ctermbg=NONE cterm=NONE guifg=#d99145 guibg=NONE gui=NONE
