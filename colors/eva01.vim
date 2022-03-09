@@ -153,3 +153,14 @@ hi GitGutterDelete ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=NONE 
 " coc{{{
 hi CocHintSign ctermfg=60 guifg=#6d7ba6
 "}}}
+" vim-lsp{{{
+hi LspErrorText ctermfg=168 ctermbg=NONE cterm=NONE guifg=#db6088 guibg=#2b1211 gui=NONE
+hi LspErrorHighlight cterm=undercurl gui=undercurl guisp=#db6088
+hi LspErrorVirtualText ctermfg=168 ctermbg=NONE cterm=NONE guifg=#db6088 guibg=#2b1211 gui=NONE
+hi LspWarningText ctermfg=142 ctermbg=NONE cterm=NONE guifg=#d9d057 guibg=#2b2a11 gui=NONE
+hi LspWarningHighlight cterm=undercurl gui=undercurl guisp=#d9d057
+hi LspWarningVirtualText ctermfg=142 ctermbg=NONE cterm=NONE guifg=#d9d057 guibg=#2b2a11 gui=NONE
+hi LspInformationText ctermfg=24 ctermbg=NONE cterm=NONE guifg=#6cdde6 guibg=#162c2e gui=NONE
+hi LspInformationHighlight cterm=undercurl gui=undercurl guisp=#6cdde6
+hi LspInformationVirtualText ctermfg=24 ctermbg=NONE cterm=NONE guifg=#6cdde6 guibg=#162c2e gui=NONE
+"}}}
