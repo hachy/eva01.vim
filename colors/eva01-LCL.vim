@@ -31,7 +31,7 @@ hi Folded ctermfg=97 ctermbg=235 cterm=bold guifg=#875FAF guibg=#2c2d2f gui=bold
 hi FoldColumn ctermfg=97 ctermbg=NONE cterm=bold guifg=#875FAF guibg=NONE gui=bold
 hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi IncSearch ctermfg=16 ctermbg=119 cterm=bold guifg=#000000 guibg=#87FF5F gui=bold
-hi LineNr ctermfg=240 ctermbg=233 cterm=NONE guifg=#535177 guibg=#18181f gui=NONE
+hi LineNr ctermfg=240 ctermbg=233 cterm=NONE guifg=#535177 guibg=#191a1a gui=NONE
 hi CursorLineNr ctermfg=102 ctermbg=16 cterm=bold guifg=#a1a0ad guibg=#000000 gui=bold
 hi MatchParen ctermfg=15 ctermbg=240 cterm=bold guifg=#FFFFFF guibg=#585858 gui=bold
 hi ModeMsg ctermfg=119 ctermbg=NONE cterm=bold guifg=#87FF5F guibg=NONE gui=bold
@@ -41,7 +41,7 @@ hi Normal ctermfg=252 ctermbg=NONE cterm=NONE guifg=#ccd2d9 guibg=#242629 gui=NO
 hi NormalFloat ctermfg=252 ctermbg=16 cterm=NONE guifg=#ccd2d9 guibg=#3b3847 gui=NONE
 hi Pmenu ctermfg=119 ctermbg=16 cterm=NONE guifg=#87FF5F guibg=#3b3847 gui=NONE
 hi PmenuSel ctermfg=16 ctermbg=119 cterm=NONE guifg=#000000 guibg=#87FF5F gui=NONE
-hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=#2c2a35 gui=NONE
 hi PmenuThumb ctermfg=NONE ctermbg=119 cterm=NONE guifg=NONE guibg=#87FF5F gui=NONE
 hi Question ctermfg=119 ctermbg=NONE cterm=underline guifg=#87FF5F guibg=NONE gui=underline
 hi Search ctermfg=16 ctermbg=75 cterm=bold guifg=#000000 guibg=#85b0e6 gui=bold
@@ -50,11 +50,11 @@ hi SpellBad ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gu
 hi SpellCap ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gui=underline
 hi SpellLocal ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gui=underline
 hi SpellRare ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gui=underline
-hi StatusLineNC ctermfg=240 ctermbg=16 cterm=NONE guifg=#535177 guibg=#000000 gui=NONE
 hi StatusLine ctermfg=63 ctermbg=16 cterm=NONE guifg=#ab92fc guibg=#000000 gui=NONE
-hi TabLineSel ctermfg=63 ctermbg=NONE cterm=NONE guifg=#ab92fc guibg=#18181f gui=NONE
-hi TabLine ctermfg=102 ctermbg=16 cterm=NONE guifg=#a1a0ad guibg=#18181f gui=NONE
+hi StatusLineNC ctermfg=240 ctermbg=16 cterm=NONE guifg=#535177 guibg=#191a1a gui=NONE
+hi TabLine ctermfg=102 ctermbg=16 cterm=NONE guifg=#a1a0ad guibg=#191a1a gui=NONE
 hi TabLineFill ctermfg=102 ctermbg=16 cterm=NONE guifg=#a1a0ad guibg=NONE gui=NONE
+hi TabLineSel ctermfg=63 ctermbg=NONE cterm=NONE guifg=#ab92fc guibg=#191a1a gui=NONE
 hi Title ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=NONE gui=bold
 hi Visual ctermfg=NONE ctermbg=97 cterm=bold guifg=NONE guibg=#535177 gui=bold
 hi WarningMsg ctermfg=226 ctermbg=NONE cterm=bold guifg=#d9d057 guibg=#2b2a11 gui=bold
