@@ -65,7 +65,7 @@ hi Comment ctermfg=102 ctermbg=NONE cterm=NONE guifg=#a1a0ad guibg=NONE gui=NONE
 hi Constant ctermfg=208 ctermbg=NONE cterm=NONE guifg=#d99145 guibg=NONE gui=NONE
 hi String ctermfg=183 ctermbg=NONE cterm=NONE guifg=#cfa1ed guibg=NONE gui=NONE
 hi Number ctermfg=208 ctermbg=NONE cterm=NONE guifg=#d99145 guibg=NONE gui=NONE
-hi PreProc ctermfg=129 ctermbg=NONE cterm=NONE guifg=#c25ae6 guibg=NONE gui=NONE
+hi PreProc ctermfg=129 ctermbg=NONE cterm=NONE guifg=#ce67f0 guibg=NONE gui=NONE
 hi Identifier ctermfg=75 ctermbg=NONE cterm=NONE guifg=#85b0e6 guibg=NONE gui=NONE
 hi Function ctermfg=156 ctermbg=NONE cterm=NONE guifg=#9cda7c guibg=NONE gui=NONE
 hi Statement ctermfg=63 ctermbg=NONE cterm=NONE guifg=#ab92fc guibg=NONE gui=NONE
