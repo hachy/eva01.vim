@@ -17,8 +17,8 @@ hi ColorColumn ctermfg=NONE ctermbg=97 cterm=NONE guifg=NONE guibg=#875FAF gui=N
 hi Conceal ctermfg=119 ctermbg=NONE cterm=NONE guifg=#87FF5F guibg=NONE gui=NONE
 hi Cursor ctermfg=16 ctermbg=119 cterm=NONE guifg=#000000 guibg=#87FF5F gui=NONE
 hi CursorIM ctermfg=NONE ctermbg=168 cterm=NONE guifg=NONE guibg=#db6088 gui=NONE
-hi CursorColumn ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#262626 gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#262626 gui=NONE
+hi CursorColumn ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#2c2d2f gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#2c2d2f gui=NONE
 hi Directory ctermfg=156 ctermbg=NONE cterm=NONE guifg=#9cda7c guibg=NONE gui=NONE
 hi DiffAdd ctermfg=16 ctermbg=156 cterm=NONE guifg=#000000 guibg=#9cda7c gui=NONE
 hi DiffChange ctermfg=16 ctermbg=175 cterm=NONE guifg=#000000 guibg=#D787AF gui=NONE
@@ -27,7 +27,7 @@ hi DiffText ctermfg=16 ctermbg=168 cterm=bold guifg=#000000 guibg=#db6088 gui=bo
 hi EndOfBuffer ctermfg=119 ctermbg=NONE cterm=NONE guifg=#87FF5F guibg=NONE gui=NONE
 hi ErrorMsg ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=#2b1211 gui=bold
 hi VertSplit ctermfg=97 ctermbg=NONE cterm=NONE guifg=#875FAF guibg=NONE gui=NONE
-hi Folded ctermfg=97 ctermbg=235 cterm=bold guifg=#875FAF guibg=#262626 gui=bold
+hi Folded ctermfg=97 ctermbg=235 cterm=bold guifg=#875FAF guibg=#2c2d2f gui=bold
 hi FoldColumn ctermfg=97 ctermbg=NONE cterm=bold guifg=#875FAF guibg=NONE gui=bold
 hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi IncSearch ctermfg=16 ctermbg=119 cterm=bold guifg=#000000 guibg=#87FF5F gui=bold
