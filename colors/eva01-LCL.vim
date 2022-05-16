@@ -31,8 +31,8 @@ hi Folded ctermfg=97 ctermbg=235 cterm=bold guifg=#875FAF guibg=#2c2d2f gui=bold
 hi FoldColumn ctermfg=97 ctermbg=NONE cterm=bold guifg=#875FAF guibg=NONE gui=bold
 hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi IncSearch ctermfg=16 ctermbg=119 cterm=bold guifg=#000000 guibg=#87FF5F gui=bold
-hi LineNr ctermfg=240 ctermbg=233 cterm=NONE guifg=#535177 guibg=#191a1a gui=NONE
-hi CursorLineNr ctermfg=102 ctermbg=16 cterm=bold guifg=#a1a0ad guibg=#000000 gui=bold
+hi LineNr ctermfg=240 ctermbg=233 cterm=NONE guifg=#656475 guibg=NONE gui=NONE
+hi CursorLineNr ctermfg=102 ctermbg=16 cterm=bold guifg=#8c8b98 guibg=NONE gui=bold
 hi MatchParen ctermfg=15 ctermbg=240 cterm=bold guifg=#FFFFFF guibg=#585858 gui=bold
 hi ModeMsg ctermfg=119 ctermbg=NONE cterm=bold guifg=#87FF5F guibg=NONE gui=bold
 hi MoreMsg ctermfg=119 ctermbg=NONE cterm=bold guifg=#87FF5F guibg=NONE gui=bold
