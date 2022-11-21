@@ -1,6 +1,6 @@
 # eva01.vim
 
-A dark color scheme for Vim
+A dark color scheme for Vim/NeoVim
 
 ## Installation
 
@@ -15,10 +15,13 @@ Add this to your .vimrc or init.vim
 ```vim
 colorscheme eva01
 " or
-" colorscheme eva01-LCL
+colorscheme eva01-LCL
 ```
 
 #### Screenshots
 
-![screenshot_1](https://hachy.github.io/eva01.vim/assets/images/screenshot_eva01_1.png)
-![screenshot_2](https://hachy.github.io/eva01.vim/assets/images/screenshot_eva01_2.png)
+##### eva01
+![screenshot_1](https://hachy.github.io/eva01.vim/assets/images/screenshot_1.png)
+
+##### eva01-LCL
+![screenshot_2](https://hachy.github.io/eva01.vim/assets/images/screenshot_lcl_1.png)
