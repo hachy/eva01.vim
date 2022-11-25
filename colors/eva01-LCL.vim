@@ -62,15 +62,15 @@ hi WildMenu ctermfg=119 ctermbg=NONE cterm=NONE guifg=#87FF5F guibg=NONE gui=NON
 "}}}
 " Syntax highlighting"{{{
 hi Comment ctermfg=102 ctermbg=NONE cterm=NONE guifg=#a1a0ad guibg=NONE gui=NONE
-hi Constant ctermfg=208 ctermbg=NONE cterm=NONE guifg=#d99145 guibg=NONE gui=NONE
+hi Constant ctermfg=172 ctermbg=NONE cterm=NONE guifg=#e39e74 guibg=NONE gui=NONE
 hi String ctermfg=183 ctermbg=NONE cterm=NONE guifg=#cfa1ed guibg=NONE gui=NONE
-hi Number ctermfg=208 ctermbg=NONE cterm=NONE guifg=#d99145 guibg=NONE gui=NONE
+hi Number ctermfg=226 ctermbg=NONE cterm=NONE guifg=#dedc52 guibg=NONE gui=NONE
 hi PreProc ctermfg=129 ctermbg=NONE cterm=NONE guifg=#ce67f0 guibg=NONE gui=NONE
 hi Identifier ctermfg=75 ctermbg=NONE cterm=NONE guifg=#85b0e6 guibg=NONE gui=NONE
 hi Function ctermfg=156 ctermbg=NONE cterm=NONE guifg=#9cda7c guibg=NONE gui=NONE
 hi Statement ctermfg=99 ctermbg=NONE cterm=NONE guifg=#ab92fc guibg=NONE gui=NONE
 hi Type ctermfg=75 ctermbg=NONE cterm=NONE guifg=#85b0e6 guibg=NONE gui=NONE
-hi Special ctermfg=208 ctermbg=NONE cterm=NONE guifg=#d99145 guibg=NONE gui=NONE
+hi Special ctermfg=172 ctermbg=NONE cterm=NONE guifg=#e39e74 guibg=NONE gui=NONE
 hi DiagnosticError ctermfg=168 ctermbg=NONE cterm=NONE guifg=#db6088 guibg=#2b1211 gui=NONE
 hi DiagnosticWarn ctermfg=226 ctermbg=NONE cterm=NONE guifg=#d9d057 guibg=#2b2a11 gui=NONE
 hi DiagnosticInfo ctermfg=24 ctermbg=NONE cterm=NONE guifg=#6cdde6 guibg=#162c2e gui=NONE
@@ -79,14 +79,14 @@ hi Error ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gui=u
 hi Todo ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=#2b1211 gui=bold
 "hi Ignore
 hi link Character String
-hi link Boolean Constant
+hi link Boolean Number
 hi link Float Number
 hi link Conditional Statement
 hi link Repeat Statement
 hi link Operator Statement
 hi link Keyword Statement
 hi link Label Statement
-hi link Exception Statement
+hi link Exception Preproc
 hi link Include Preproc
 hi link Define Statement
 hi link Macro PreProc
