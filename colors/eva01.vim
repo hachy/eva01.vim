@@ -74,7 +74,7 @@ hi Special ctermfg=172 ctermbg=NONE cterm=NONE guifg=#e39e74 guibg=NONE gui=NONE
 hi DiagnosticError ctermfg=168 ctermbg=NONE cterm=NONE guifg=#db6088 guibg=#2b1211 gui=NONE
 hi DiagnosticWarn ctermfg=226 ctermbg=NONE cterm=NONE guifg=#d9d057 guibg=#2b2a11 gui=NONE
 hi DiagnosticInfo ctermfg=24 ctermbg=NONE cterm=NONE guifg=#6cdde6 guibg=#162c2e gui=NONE
-hi Underlined ctermfg=119 ctermbg=NONE cterm=underline guifg=#87FF5F guibg=NONE gui=underline
+hi Underlined ctermfg=156 ctermbg=NONE cterm=underline guifg=#9cda7c guibg=NONE gui=underline
 hi Error ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gui=underline
 hi Todo ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=#2b1211 gui=bold
 "hi Ignore
