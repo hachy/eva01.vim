@@ -164,3 +164,8 @@ hi LspInformationText ctermfg=24 ctermbg=NONE cterm=NONE guifg=#6cdde6 guibg=#16
 hi LspInformationHighlight cterm=undercurl gui=undercurl guisp=#6cdde6
 hi LspInformationVirtualText ctermfg=24 ctermbg=NONE cterm=NONE guifg=#6cdde6 guibg=#162c2e gui=NONE
 "}}}
+
+if has('nvim-0.8')
+  lua package.loaded["eva01.treesitter"] = nil
+  lua require("eva01.treesitter")
+endif
