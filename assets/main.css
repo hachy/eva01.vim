@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 * {
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -29,12 +28,6 @@ body {
   font: 400 16px/1.5 '游ゴシック体', 'Yu Gothic', YuGothic, 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', Roboto, Helvetica, Arial, sans-serif;
   color: #fff;
   background: #2c313a;
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-feature-settings: 'kern' 1;
-  -moz-font-feature-settings: 'kern' 1;
-  -o-font-feature-settings: 'kern' 1;
-  font-feature-settings: 'kern' 1;
-  font-kerning: normal;
 }
 
 h1,
@@ -94,10 +87,10 @@ img {
 }
 
 .tabs {
-  margin: 40px 0 0 0;
+  margin: 40px 0 0;
 }
 
-.tab_item {
+.tab-item {
   display: block;
   float: left;
   width: 50%;
@@ -107,17 +100,14 @@ img {
   text-align: center;
   cursor: pointer;
   border-bottom: 2px solid #666;
-  -o-transition: all 0.3s ease-in;
-  -webkit-transition: all 0.3s ease-in;
-  -moz-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
 
-input[name='tab_item'] {
+input[name='tab-item'] {
   display: none;
 }
 
-.tab_content {
+.tab-content {
   display: none;
   padding: 40px;
   overflow: hidden;
@@ -129,15 +119,15 @@ input[name='tab_item'] {
   display: block;
 }
 
-.tabs input:checked + .tab_item {
+.tabs input:checked + .tab-item {
   color: #fff;
   border-bottom: 2px solid #bc7efa;
 }
 
 .scale-img {
-  margin-bottom: 40px;
   width: 100%;
   height: auto;
+  margin-bottom: 40px;
   transition: 0.1s;
 }
 
@@ -146,17 +136,13 @@ input[name='tab_item'] {
   transform: scale(1.1);
 }
 
-.color_sample_wrapper {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
+.color-sample-wrapper {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
 }
 
-.color_sample {
+.color-sample {
   min-width: 20px;
   height: 20px;
   margin: 10px;
@@ -193,7 +179,7 @@ input[name='tab_item'] {
 }
 
 .color08 {
-  background: #d99145;
+  background: #e39e74;
 }
 
 .color09 {
@@ -201,73 +187,81 @@ input[name='tab_item'] {
 }
 
 .color10 {
-  background: #cfa1ed;
+  background: #dedc52;
 }
 
 .color11 {
-  background: #bec7d1;
+  background: #cfa1ed;
 }
 
 .color12 {
-  background: #8784ad;
+  background: #bec7d1;
 }
 
 .color13 {
-  background: #000000;
+  background: #8784ad;
+}
+
+.color14 {
+  background: #000;
   border: 1px solid #ccc;
 }
 
 /* eva01-LCL */
 
-.color01_lcl {
+.color01-lcl {
   background: #ab92fc;
 }
 
-.color02_lcl {
+.color02-lcl {
   background: #ce67f0;
 }
 
-.color03_lcl {
+.color03-lcl {
   background: #875faf;
 }
 
-.color04_lcl {
+.color04-lcl {
   background: #87ff5f;
 }
 
-.color05_lcl {
+.color05-lcl {
   background: #9cda7c;
 }
 
-.color06_lcl {
+.color06-lcl {
   background: #85b0e6;
 }
 
-.color07_lcl {
+.color07-lcl {
   background: #db6088;
 }
 
-.color08_lcl {
-  background: #d99145;
+.color08-lcl {
+  background: #e39e74;
 }
 
-.color09_lcl {
+.color09-lcl {
   background: #6e4c28;
 }
 
-.color10_lcl {
+.color10-lcl {
+  background: #dedc52;
+}
+
+.color11-lcl {
   background: #cfa1ed;
 }
 
-.color11_lcl {
+.color12-lcl {
   background: #ccd2d9;
 }
 
-.color12_lcl {
+.color13-lcl {
   background: #a1a0ad;
 }
 
-.color13_lcl {
+.color14-lcl {
   background: #242629;
   border: 1px solid #ccc;
 }
