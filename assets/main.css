@@ -150,118 +150,157 @@ input[name='tab-item'] {
   border-radius: 10%;
 }
 
-.color01 {
+button {
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  appearance: none;
+}
+
+.tooltip {
+  position: relative;
+  min-width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.tooltip-text {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  display: inline-block;
+  padding: kpx;
+  font-size: 0.8rem;
+  line-height: 1.3;
+  color: #fff;
+  white-space: nowrap;
+  visibility: hidden;
+  background: #000;
+  border-radius: 3px;
+  opacity: 0;
+  transition: 0.3s ease-in;
+  transform: translateX(-50%);
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.color00 {
   background: #a786ff;
 }
 
-.color02 {
+.color01 {
   background: #c25ae6;
 }
 
-.color03 {
+.color02 {
   background: #875faf;
 }
 
-.color04 {
+.color03 {
   background: #87ff5f;
 }
 
-.color05 {
+.color04 {
   background: #9cda7c;
 }
 
-.color06 {
+.color05 {
   background: #7ca8de;
 }
 
-.color07 {
+.color06 {
   background: #db6088;
 }
 
-.color08 {
+.color07 {
   background: #e39e74;
 }
 
-.color09 {
+.color08 {
   background: #6e4c28;
 }
 
-.color10 {
+.color09 {
   background: #dedc52;
 }
 
-.color11 {
+.color10 {
   background: #cfa1ed;
 }
 
-.color12 {
+.color11 {
   background: #bec7d1;
 }
 
-.color13 {
+.color12 {
   background: #8784ad;
 }
 
-.color14 {
+.color13 {
   background: #000;
   border: 1px solid #ccc;
 }
 
 /* eva01-LCL */
 
-.color01-lcl {
+.color00-lcl {
   background: #ab92fc;
 }
 
-.color02-lcl {
+.color01-lcl {
   background: #ce67f0;
 }
 
-.color03-lcl {
+.color02-lcl {
   background: #875faf;
 }
 
-.color04-lcl {
+.color03-lcl {
   background: #87ff5f;
 }
 
-.color05-lcl {
+.color04-lcl {
   background: #9cda7c;
 }
 
-.color06-lcl {
+.color05-lcl {
   background: #85b0e6;
 }
 
-.color07-lcl {
+.color06-lcl {
   background: #db6088;
 }
 
-.color08-lcl {
+.color07-lcl {
   background: #e39e74;
 }
 
-.color09-lcl {
+.color08-lcl {
   background: #6e4c28;
 }
 
-.color10-lcl {
+.color09-lcl {
   background: #dedc52;
 }
 
-.color11-lcl {
+.color10-lcl {
   background: #cfa1ed;
 }
 
-.color12-lcl {
+.color11-lcl {
   background: #ccd2d9;
 }
 
-.color13-lcl {
+.color12-lcl {
   background: #a1a0ad;
 }
 
-.color14-lcl {
+.color13-lcl {
   background: #242629;
   border: 1px solid #ccc;
 }
