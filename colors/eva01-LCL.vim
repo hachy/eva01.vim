@@ -58,6 +58,7 @@ hi TabLineSel ctermfg=99 ctermbg=NONE cterm=NONE guifg=#ab92fc guibg=#191a1a gui
 hi Title ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=NONE gui=bold
 hi Visual ctermfg=NONE ctermbg=97 cterm=bold guifg=NONE guibg=#535177 gui=bold
 hi WarningMsg ctermfg=226 ctermbg=NONE cterm=bold guifg=#d9d057 guibg=#2b2a11 gui=bold
+hi Whitespace ctermfg=234 ctermbg=NONE cterm=NONE guifg=#6e4c28 guibg=NONE gui=NONE
 hi WildMenu ctermfg=119 ctermbg=NONE cterm=NONE guifg=#87FF5F guibg=NONE gui=NONE
 "}}}
 " Syntax highlighting"{{{
