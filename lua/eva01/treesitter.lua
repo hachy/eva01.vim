@@ -57,3 +57,9 @@ vim.api.nvim_set_hl(0, "@text.diff.delete", { link = "DiffDelete" })
 -- html
 vim.api.nvim_set_hl(0, "@tag.delimiter.html", { link = "Function" })
 vim.api.nvim_set_hl(0, "@tag.html", { link = "Statement" })
+
+-- lua
+vim.api.nvim_set_hl(0, "@keyword.lua", { link = "Preproc" })
+
+-- vim
+vim.api.nvim_set_hl(0, "@keyword.vim", { link = "Preproc" })
