@@ -56,7 +56,7 @@ hi StatusLineNC ctermfg=240 ctermbg=16 cterm=NONE guifg=#535177 guibg=#191a1a gu
 hi TabLine ctermfg=102 ctermbg=16 cterm=NONE guifg=#a1a0ad guibg=#191a1a gui=NONE
 hi TabLineFill ctermfg=102 ctermbg=16 cterm=NONE guifg=#a1a0ad guibg=NONE gui=NONE
 hi TabLineSel ctermfg=99 ctermbg=NONE cterm=NONE guifg=#ab92fc guibg=#191a1a gui=NONE
-hi Title ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=NONE gui=bold
+hi Title ctermfg=172 ctermbg=NONE cterm=NONE guifg=#e39e74 guibg=NONE gui=NONE
 hi Visual ctermfg=NONE ctermbg=97 cterm=bold guifg=NONE guibg=#535177 gui=bold
 hi WarningMsg ctermfg=226 ctermbg=NONE cterm=bold guifg=#d9d057 guibg=#2b2a11 gui=bold
 hi Whitespace ctermfg=234 ctermbg=NONE cterm=NONE guifg=#6e4c28 guibg=NONE gui=NONE
