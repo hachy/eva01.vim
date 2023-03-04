@@ -100,7 +100,7 @@ hi link Typedef Type
 hi link SpecialChar Special
 hi link Tag Special
 hi link Delimiter Statement
-hi link SpecialComment Special
+hi SpecialComment ctermfg=172 ctermbg=NONE cterm=NONE guifg=#b67e5d guibg=NONE gui=NONE
 hi link Debug Special
 "}}}
 " HTML"{{{

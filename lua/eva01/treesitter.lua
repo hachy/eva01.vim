@@ -53,6 +53,7 @@ vim.api.nvim_set_hl(0, "@tag", { link = "Tag" })
 vim.api.nvim_set_hl(0, "@keyword.coroutine", { link = "Preproc" })
 vim.api.nvim_set_hl(0, "@attribute", { link = "Constant" })
 vim.api.nvim_set_hl(0, "@symbol", { link = "Constant" })
+vim.api.nvim_set_hl(0, "@text.note", { link = "SpecialComment" })
 vim.api.nvim_set_hl(0, "@text.diff.add", { link = "DiffAdd" })
 vim.api.nvim_set_hl(0, "@text.diff.delete", { link = "DiffDelete" })
 
