@@ -40,6 +40,7 @@ hi NonText ctermfg=234 ctermbg=NONE cterm=NONE guifg=#6e4c28 guibg=NONE gui=NONE
 hi Normal ctermfg=252 ctermbg=NONE cterm=NONE guifg=#bec7d1 guibg=#000000 gui=NONE
 hi NormalFloat ctermfg=252 ctermbg=16 cterm=NONE guifg=#bec7d1 guibg=#14250e gui=NONE
 hi FloatBorder ctermfg=156 ctermbg=NONE cterm=NONE guifg=#9cda7c guibg=NONE gui=NONE
+hi FloatTitle ctermfg=156 ctermbg=NONE cterm=NONE guifg=#9cda7c guibg=NONE gui=NONE
 hi Pmenu ctermfg=119 ctermbg=16 cterm=NONE guifg=#87FF5F guibg=#1b3313 gui=NONE
 hi PmenuSel ctermfg=16 ctermbg=119 cterm=NONE guifg=#000000 guibg=#87FF5F gui=NONE
 hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
