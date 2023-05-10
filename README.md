@@ -4,16 +4,31 @@ A dark color scheme for Vim/NeoVim
 
 ## Installation
 
-If you are using [vim-plug](https://github.com/junegunn/vim-plug), add this to your `.vimrc` or `init.vim`
+Using [lazy.nvim](https://github.com/folke/lazy.nvim)
+
+```lua
+require('lazy').setup {
+  {
+    "hachy/eva01.vim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      vim.cmd.colorscheme "eva01"
+      -- or
+      -- vim.cmd.colorscheme "eva01-LCL"
+    end,
+  }
+}
+```
+
+Using [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
 Plug 'hachy/eva01.vim', { 'branch': 'main' }
-```
 
-```vim
 colorscheme eva01
 " or
-colorscheme eva01-LCL
+" colorscheme eva01-LCL
 ```
 
 #### Screenshots
