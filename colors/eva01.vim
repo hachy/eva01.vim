@@ -62,6 +62,8 @@ hi Visual ctermfg=NONE ctermbg=97 cterm=bold guifg=NONE guibg=#535177 gui=bold
 hi WarningMsg ctermfg=226 ctermbg=NONE cterm=bold guifg=#d9d057 guibg=#2b2a11 gui=bold
 hi Whitespace ctermfg=234 ctermbg=NONE cterm=NONE guifg=#6e4c28 guibg=NONE gui=NONE
 hi WildMenu ctermfg=119 ctermbg=NONE cterm=NONE guifg=#87FF5F guibg=NONE gui=NONE
+hi WinBar ctermfg=70 ctermbg=NONE cterm=NONE guifg=#8aad84 guibg=NONE gui=NONE
+hi WinBarNC ctermfg=64 ctermbg=NONE cterm=NONE guifg=#688263 guibg=NONE gui=NONE
 "}}}
 " Syntax highlighting"{{{
 hi Comment ctermfg=102 ctermbg=NONE cterm=NONE guifg=#8784ad guibg=NONE gui=NONE
