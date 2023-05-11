@@ -67,3 +67,8 @@ vim.api.nvim_set_hl(0, "@keyword.lua", { link = "Preproc" })
 
 -- vim
 vim.api.nvim_set_hl(0, "@keyword.vim", { link = "Preproc" })
+
+-- Hide LSP semantic highlights
+for _, group in ipairs(vim.fn.getcompletion("@lsp", "highlight")) do
+	vim.api.nvim_set_hl(0, group, {})
+end
