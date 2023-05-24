@@ -62,8 +62,11 @@ vim.api.nvim_set_hl(0, "@tag.delimiter.html", { link = "Function" })
 vim.api.nvim_set_hl(0, "@tag.html", { link = "Statement" })
 vim.api.nvim_set_hl(0, "@text.title.html", { link = "Number" })
 
+-- cpp
+vim.api.nvim_set_hl(0, "@type.cpp", { link = "Include" })
+
 -- lua
-vim.api.nvim_set_hl(0, "@keyword.lua", { link = "Preproc" })
+vim.api.nvim_set_hl(0, "@keyword.lua", { link = "Include" })
 
 -- vim
 vim.api.nvim_set_hl(0, "@keyword.vim", { link = "Preproc" })
