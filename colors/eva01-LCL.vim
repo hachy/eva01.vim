@@ -86,7 +86,7 @@ hi Error ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gui=u
 hi Todo ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=#2b1211 gui=bold
 "hi Ignore
 hi link Character String
-hi link Boolean Number
+hi link Boolean Constant
 hi link Float Number
 hi link Conditional Statement
 hi link Repeat Statement
