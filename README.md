@@ -1,6 +1,6 @@
 # eva01.vim
 
-A dark color scheme for Vim/NeoVim
+A dark color scheme for Vim/Neovim
 
 ## Installation
 
