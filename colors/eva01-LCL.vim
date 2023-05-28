@@ -69,6 +69,7 @@ hi WinBarNC ctermfg=240 ctermbg=NONE cterm=NONE guifg=#76839d guibg=NONE gui=NON
 hi Comment ctermfg=102 ctermbg=NONE cterm=NONE guifg=#a1a0ad guibg=NONE gui=NONE
 hi Constant ctermfg=172 ctermbg=NONE cterm=NONE guifg=#e39e74 guibg=NONE gui=NONE
 hi String ctermfg=183 ctermbg=NONE cterm=NONE guifg=#cfa1ed guibg=NONE gui=NONE
+hi Character ctermfg=213 ctermbg=NONE cterm=NONE guifg=#d67cc4 guibg=NONE gui=NONE
 hi Number ctermfg=226 ctermbg=NONE cterm=NONE guifg=#dedc52 guibg=NONE gui=NONE
 hi PreProc ctermfg=129 ctermbg=NONE cterm=NONE guifg=#ce67f0 guibg=NONE gui=NONE
 hi Include ctermfg=127 ctermbg=NONE cterm=NONE guifg=#b968fc guibg=NONE gui=NONE
@@ -85,7 +86,6 @@ hi Underlined ctermfg=156 ctermbg=NONE cterm=underline guifg=#9cda7c guibg=NONE 
 hi Error ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gui=underline
 hi Todo ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=#2b1211 gui=bold
 "hi Ignore
-hi link Character String
 hi link Boolean Constant
 hi link Float Number
 hi link Conditional Statement
