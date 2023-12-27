@@ -97,7 +97,7 @@ hi link Exception Preproc
 hi link Define Statement
 hi link Macro PreProc
 hi link PreCondit PreProc
-hi link StorageClass Type
+hi link StorageClass Identifier
 hi link Structure Type
 hi link Typedef Type
 hi link SpecialChar Special
