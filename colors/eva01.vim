@@ -172,6 +172,6 @@ hi LspInformationVirtualText ctermfg=24 ctermbg=NONE cterm=NONE guifg=#6cdde6 gu
 "}}}
 
 if has('nvim-0.8')
-  lua package.loaded["eva01.treesitter"] = nil
-  lua require("eva01.treesitter")
+  lua package.loaded["eva01"] = nil
+  lua require("eva01")
 endif
