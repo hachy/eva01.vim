@@ -1,4 +1,9 @@
-package.loaded["eva01.treesitter"] = nil
+for mod, _ in pairs(package.loaded) do
+	if mod:match("^eva01%.") then
+		package.loaded[mod] = nil
+	end
+end
+require("eva01.diagnostic")
 require("eva01.treesitter")
 
 -- Hide LSP semantic highlights
