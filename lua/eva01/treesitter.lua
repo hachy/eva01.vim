@@ -164,3 +164,6 @@ vim.api.nvim_set_hl(0, "@keyword.lua", { link = "Include" })
 
 -- vim
 vim.api.nvim_set_hl(0, "@keyword.vim", { link = "Preproc" })
+
+-- ruby
+vim.api.nvim_set_hl(0, "@keyword.modifier.ruby", { link = "Preproc" })
