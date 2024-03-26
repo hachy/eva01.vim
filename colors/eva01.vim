@@ -71,6 +71,7 @@ hi Constant ctermfg=172 ctermbg=NONE cterm=NONE guifg=#e39e74 guibg=NONE gui=NON
 hi String ctermfg=183 ctermbg=NONE cterm=NONE guifg=#cfa1ed guibg=NONE gui=NONE
 hi Number ctermfg=226 ctermbg=NONE cterm=NONE guifg=#dedc52 guibg=NONE gui=NONE
 hi PreProc ctermfg=129 ctermbg=NONE cterm=NONE guifg=#c25ae6 guibg=NONE gui=NONE
+hi Include ctermfg=127 ctermbg=NONE cterm=NONE guifg=#b968fc guibg=NONE gui=NONE
 hi Identifier ctermfg=75 ctermbg=NONE cterm=NONE guifg=#9dbee6 guibg=NONE gui=NONE
 hi Function ctermfg=156 ctermbg=NONE cterm=NONE guifg=#9cda7c guibg=NONE gui=NONE
 hi Statement ctermfg=99 ctermbg=NONE cterm=NONE guifg=#a786ff guibg=NONE gui=NONE
@@ -89,7 +90,6 @@ hi link Operator Statement
 hi link Keyword Statement
 hi link Label Statement
 hi link Exception Preproc
-hi link Include Preproc
 hi link Define Statement
 hi link Macro PreProc
 hi link PreCondit PreProc
