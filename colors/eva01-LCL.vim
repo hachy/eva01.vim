@@ -77,6 +77,7 @@ hi Identifier ctermfg=75 ctermbg=NONE cterm=NONE guifg=#a4d2ec guibg=NONE gui=NO
 hi Function ctermfg=156 ctermbg=NONE cterm=NONE guifg=#9cda7c guibg=NONE gui=NONE
 hi Statement ctermfg=99 ctermbg=NONE cterm=NONE guifg=#ab92fc guibg=NONE gui=NONE
 hi Type ctermfg=75 ctermbg=NONE cterm=NONE guifg=#85b0e6 guibg=NONE gui=NONE
+hi Typedef guifg=#858fe6 guibg=NONE gui=NONE
 hi Special ctermfg=172 ctermbg=NONE cterm=NONE guifg=#e39e74 guibg=NONE gui=NONE
 hi Underlined ctermfg=156 ctermbg=NONE cterm=underline guifg=#9cda7c guibg=NONE gui=underline
 hi Error ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gui=underline
@@ -95,7 +96,6 @@ hi link Macro PreProc
 hi link PreCondit PreProc
 hi link StorageClass Identifier
 hi link Structure Type
-hi link Typedef Type
 hi link SpecialChar Special
 hi link Tag Special
 hi link Delimiter Statement
