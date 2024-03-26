@@ -89,7 +89,7 @@ hi link Conditional Statement
 hi link Repeat Statement
 hi link Operator Statement
 hi link Keyword Statement
-hi link Label Statement
+hi link Label Identifier
 hi link Exception Preproc
 hi link Define Statement
 hi link Macro PreProc
@@ -97,20 +97,14 @@ hi link PreCondit PreProc
 hi link StorageClass Identifier
 hi link Structure Type
 hi link SpecialChar Special
-hi link Tag Special
+hi link Tag Statement
 hi link Delimiter Statement
 hi SpecialComment ctermfg=172 ctermbg=NONE cterm=NONE guifg=#b67e5d guibg=NONE gui=NONE
 hi link Debug Special
 "}}}
 " HTML"{{{
-hi link htmlTag PreProc
-hi link htmlEndTag PreProc
-hi link htmlTitle Number
-hi link htmlH1 Number
-hi htmlLink ctermfg=156 ctermbg=NONE cterm=underline guifg=#9cda7c guibg=NONE gui=underline
-"}}}
-" XML"{{{
-hi link xmlEndTag Keyword
+hi link htmlTag Include
+hi link htmlEndTag Include
 "}}}
 " Javascript"{{{
 hi link javaScriptIdentifier Type
