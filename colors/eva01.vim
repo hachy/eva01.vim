@@ -48,7 +48,7 @@ hi PmenuThumb ctermfg=NONE ctermbg=119 cterm=NONE guifg=NONE guibg=#87FF5F gui=N
 hi Question ctermfg=119 ctermbg=NONE cterm=underline guifg=#87FF5F guibg=NONE gui=underline
 hi Search ctermfg=16 ctermbg=75 cterm=bold guifg=#000000 guibg=#7ca8de gui=bold
 hi SpecialKey ctermfg=97 ctermbg=NONE cterm=NONE guifg=#875FAF guibg=NONE gui=NONE
-hi SpellBad ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gui=underline
+hi SpellBad ctermfg=168 ctermbg=NONE cterm=undercurl guifg=NONE guibg=NONE guisp=#db6088 gui=undercurl
 hi SpellCap ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gui=underline
 hi SpellLocal ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gui=underline
 hi SpellRare ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gui=underline
