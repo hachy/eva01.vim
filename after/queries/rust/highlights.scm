@@ -1,5 +1,5 @@
 ;; extends
 
-"*" @Preproc
-"&" @Preproc
-"'" @Preproc
+"*" @keyword.type
+"&" @keyword.type
+"'" @keyword.type
