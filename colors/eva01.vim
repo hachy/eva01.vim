@@ -82,64 +82,64 @@ hi Underlined ctermfg=156 ctermbg=NONE cterm=underline guifg=#9cda7c guibg=NONE 
 hi Error ctermfg=168 ctermbg=NONE cterm=underline guifg=#db6088 guibg=NONE gui=underline
 hi Todo ctermfg=168 ctermbg=NONE cterm=bold guifg=#db6088 guibg=#2b1211 gui=bold
 "hi Ignore
-hi link Character String
-hi link Boolean Constant
-hi link Float Number
-hi link Conditional Statement
-hi link Repeat Statement
-hi link Operator Statement
-hi link Keyword Statement
-hi link Label Identifier
-hi link Exception Preproc
-hi link Define Statement
-hi link Macro PreProc
-hi link PreCondit PreProc
-hi link StorageClass Identifier
-hi link Structure Type
-hi link SpecialChar Special
-hi link Tag Statement
-hi link Delimiter Statement
+hi! link Character String
+hi! link Boolean Constant
+hi! link Float Number
+hi! link Conditional Statement
+hi! link Repeat Statement
+hi! link Operator Statement
+hi! link Keyword Statement
+hi! link Label Identifier
+hi! link Exception Preproc
+hi! link Define Statement
+hi! link Macro PreProc
+hi! link PreCondit PreProc
+hi! link StorageClass Identifier
+hi! link Structure Type
+hi! link SpecialChar Special
+hi! link Tag Statement
+hi! link Delimiter Statement
 hi SpecialComment ctermfg=172 ctermbg=NONE cterm=NONE guifg=#b67e5d guibg=NONE gui=NONE
-hi link Debug Special
+hi! link Debug Special
 "}}}
 " HTML"{{{
-hi link htmlTag Include
-hi link htmlEndTag Include
+hi! link htmlTag Include
+hi! link htmlEndTag Include
 "}}}
 " Javascript"{{{
-hi link javaScriptIdentifier Type
-hi link javaScriptDOMMethods Normal
-hi link javaScriptDOMProperties Normal
-hi link javaScriptNumber Number
-hi link javaScriptParens Preproc
-hi link javaScriptFuncArg Normal
+hi! link javaScriptIdentifier Type
+hi! link javaScriptDOMMethods Normal
+hi! link javaScriptDOMProperties Normal
+hi! link javaScriptNumber Number
+hi! link javaScriptParens Preproc
+hi! link javaScriptFuncArg Normal
 hi javaScriptFuncDef ctermfg=168 ctermbg=NONE cterm=NONE guifg=#db6088 guibg=NONE gui=NONE
 "}}}
 " TypeScript{{{
-hi link typescriptTemplateSB Number
+hi! link typescriptTemplateSB Number
 "}}}
 " Ruby"{{{
-hi link rubyControl Preproc
-hi link rubyException Preproc
-hi link rubyExceptionHandler Preproc
+hi! link rubyControl Preproc
+hi! link rubyException Preproc
+hi! link rubyExceptionHandler Preproc
 "}}}
 " eruby"{{{
-hi link erubyDelimiter Special
+hi! link erubyDelimiter Special
 "}}}
 " Python"{{{
-hi link pythonBuiltin Type
-hi link pythonDecorator PreProc
-hi link pythonDecoratorName PreProc
+hi! link pythonBuiltin Type
+hi! link pythonDecorator PreProc
+hi! link pythonDecoratorName PreProc
 "}}}
 " php"{{{
-hi link phpParent Normal
+hi! link phpParent Normal
 "}}}
 " go"{{{
-hi link goDeclType Preproc
+hi! link goDeclType Preproc
 "}}}
 " Markdown"{{{
-hi def link markdownItalic NONE
-hi def link markdownBoldItalic NONE
+hi! def link markdownItalic NONE
+hi! def link markdownBoldItalic NONE
 "}}}
 " vim-gitgutter"{{{
 hi GitGutterAdd ctermfg=156 ctermbg=NONE cterm=bold guifg=#9cda7c guibg=NONE gui=bold
