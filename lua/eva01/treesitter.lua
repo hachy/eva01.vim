@@ -127,38 +127,6 @@ vim.api.nvim_set_hl(0, "@tag.delimiter", { link = "Include" })
 -- vim.api.nvim_set_hl(0, "@spell", {})
 -- vim.api.nvim_set_hl(0, "@nospell", {})
 
--- Legacy
-vim.api.nvim_set_hl(0, "@text.literal", { link = "String" })
-vim.api.nvim_set_hl(0, "@text.reference", { link = "Normal" })
-vim.api.nvim_set_hl(0, "@text.title", { link = "Title" })
-vim.api.nvim_set_hl(0, "@text.uri", { link = "Underlined" })
-vim.api.nvim_set_hl(0, "@text.underline", { link = "Underlined" })
-vim.api.nvim_set_hl(0, "@text.todo", { link = "Todo" })
-
-vim.api.nvim_set_hl(0, "@define", { link = "Define" })
-vim.api.nvim_set_hl(0, "@macro", { link = "Macro" })
-vim.api.nvim_set_hl(0, "@float", { link = "Float" })
-
-vim.api.nvim_set_hl(0, "@parameter", { link = "Normal" })
-vim.api.nvim_set_hl(0, "@method", { link = "Function" })
-vim.api.nvim_set_hl(0, "@field", { link = "Normal" })
-
-vim.api.nvim_set_hl(0, "@conditional", { link = "Conditional" })
-vim.api.nvim_set_hl(0, "@repeat", { link = "Repeat" })
-vim.api.nvim_set_hl(0, "@exception", { link = "Exception" })
-
-vim.api.nvim_set_hl(0, "@storageclass", { link = "StorageClass" })
-vim.api.nvim_set_hl(0, "@structure", { link = "Structure" })
-vim.api.nvim_set_hl(0, "@namespace", { link = "Normal" })
-vim.api.nvim_set_hl(0, "@include", { link = "Include" })
-vim.api.nvim_set_hl(0, "@preproc", { link = "PreProc" })
-vim.api.nvim_set_hl(0, "@debug", { link = "Debug" })
-
-vim.api.nvim_set_hl(0, "@symbol", { link = "Constant" })
-vim.api.nvim_set_hl(0, "@text.note", { link = "SpecialComment" })
-vim.api.nvim_set_hl(0, "@text.diff.add", { link = "DiffAdd" })
-vim.api.nvim_set_hl(0, "@text.diff.delete", { link = "DiffDelete" })
-
 -- lua
 vim.api.nvim_set_hl(0, "@keyword.lua", { link = "Include" })
 
