@@ -134,4 +134,9 @@ vim.api.nvim_set_hl(0, "@keyword.lua", { link = "Include" })
 vim.api.nvim_set_hl(0, "@keyword.vim", { link = "Preproc" })
 
 -- ruby
+vim.api.nvim_set_hl(0, "@function.builtin.ruby", { link = "Preproc" })
 vim.api.nvim_set_hl(0, "@keyword.modifier.ruby", { link = "Preproc" })
+vim.api.nvim_set_hl(0, "@keyword.type.ruby", { link = "Statement" })
+
+-- embedded_template
+vim.api.nvim_set_hl(0, "@keyword.embedded_template", { link = "Constant" })
