@@ -1,9 +1,9 @@
 -- Identifiers
 vim.api.nvim_set_hl(0, "@variable", { link = "Normal" })
 vim.api.nvim_set_hl(0, "@variable.builtin", { link = "Identifier" })
-vim.api.nvim_set_hl(0, "@variable.parameter", { link = "Normal" })
+vim.api.nvim_set_hl(0, "@variable.parameter", { link = "Identifier" })
 vim.api.nvim_set_hl(0, "@variable.parameter.builtin", { link = "Identifier" })
-vim.api.nvim_set_hl(0, "@variable.member", { link = "Normal" })
+vim.api.nvim_set_hl(0, "@variable.member", { link = "Identifier" })
 
 vim.api.nvim_set_hl(0, "@constant", { link = "Constant" })
 vim.api.nvim_set_hl(0, "@constant.builtin", { link = "Special" })
