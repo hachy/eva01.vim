@@ -9,6 +9,11 @@ else
 	vim.api.nvim_set_hl(0, "LspInlayHint", { fg = "#6f879a", bg = "#222b30" })
 end
 
+vim.api.nvim_set_hl(0, "LspReferenceText", { bg = "#42415f" })
+vim.api.nvim_set_hl(0, "LspReferenceRead", { bg = "#42415f" })
+vim.api.nvim_set_hl(0, "LspReferenceWrite", { bg = "#42415f" })
+vim.api.nvim_set_hl(0, "LspReferenceTarget", { bg = "#42415f" })
+
 vim.api.nvim_set_hl(0, "@lsp.type.class", { link = "@type" })
 vim.api.nvim_set_hl(0, "@lsp.type.namespace", { link = "@module" })
 vim.api.nvim_set_hl(0, "@lsp.type.parameter", { link = "@variable.parameter" })
