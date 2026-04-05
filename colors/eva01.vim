@@ -21,8 +21,8 @@ hi CursorIM ctermfg=NONE ctermbg=168 cterm=NONE guifg=NONE guibg=#db6088 gui=NON
 hi CursorColumn ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#262626 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#262626 gui=NONE
 hi Directory ctermfg=156 ctermbg=NONE cterm=NONE guifg=#9cda7c guibg=NONE gui=NONE
-hi DiffAdd ctermfg=16 ctermbg=156 cterm=NONE guifg=#000000 guibg=#9cda7c gui=NONE
-hi DiffChange ctermfg=16 ctermbg=175 cterm=NONE guifg=#000000 guibg=#D787AF gui=NONE
+hi DiffAdd ctermfg=16 ctermbg=156 cterm=NONE guifg=#9cda7c guibg=NONE gui=NONE
+hi DiffChange ctermfg=16 ctermbg=175 cterm=NONE guifg=#D787AF guibg=NONE gui=NONE
 hi DiffDelete ctermfg=168 ctermbg=NONE cterm=NONE guifg=#db6088 guibg=NONE gui=NONE
 hi DiffText ctermfg=16 ctermbg=168 cterm=bold guifg=#000000 guibg=#db6088 gui=bold
 hi EndOfBuffer ctermfg=119 ctermbg=NONE cterm=NONE guifg=#87FF5F guibg=NONE gui=NONE
