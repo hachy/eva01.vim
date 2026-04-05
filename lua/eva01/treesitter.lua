@@ -77,7 +77,7 @@ vim.api.nvim_set_hl(0, "@punctuation.special", { link = "Delimiter" })
 
 -- Comments
 vim.api.nvim_set_hl(0, "@comment", { link = "Comment" })
-vim.api.nvim_set_hl(0, "@comment.documentation", { fg = "#ada4a0" })
+vim.api.nvim_set_hl(0, "@comment.documentation", { fg = "#a47154" })
 vim.api.nvim_set_hl(0, "@comment.error", { link = "ErrorMsg" })
 vim.api.nvim_set_hl(0, "@comment.warning", { link = "WarningMsg" })
 vim.api.nvim_set_hl(0, "@comment.todo", { link = "Todo" })
