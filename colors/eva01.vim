@@ -42,10 +42,17 @@ hi Normal ctermfg=252 ctermbg=NONE cterm=NONE guifg=#bec7d1 guibg=#000000 gui=NO
 hi NormalFloat ctermfg=252 ctermbg=16 cterm=NONE guifg=#bec7d1 guibg=#101e0b gui=NONE
 hi FloatBorder ctermfg=156 ctermbg=NONE cterm=NONE guifg=#9cda7c guibg=NONE gui=NONE
 hi FloatTitle ctermfg=156 ctermbg=NONE cterm=NONE guifg=#9cda7c guibg=NONE gui=NONE
-hi Pmenu ctermfg=119 ctermbg=16 cterm=NONE guifg=#87FF5F guibg=#1b3313 gui=NONE
-hi PmenuSel ctermfg=16 ctermbg=119 cterm=NONE guifg=#000000 guibg=#87FF5F gui=NONE
+
+hi Pmenu ctermfg=119 ctermbg=240 cterm=NONE guifg=#9cda7c guibg=#1b3313 gui=NONE
+hi PmenuBorder ctermfg=119 ctermbg=NONE cterm=NONE guifg=#9cda7c guibg=NONE gui=NONE
+hi PmenuKind ctermfg=119 ctermbg=NONE cterm=NONE guifg=#9cda7c guibg=NONE gui=NONE
+hi PmenuKindSel ctermfg=16 ctermbg=119 cterm=bold guifg=#000000 guibg=#9cda7c gui=bold
+hi PmenuMatch ctermfg=99 ctermbg=NONE cterm=bold guifg=#b968fc guibg=NONE gui=bold
+hi PmenuMatchSel ctermfg=99 ctermbg=NONE cterm=bold guifg=#b968fc guibg=NONE gui=bold
 hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi PmenuSel ctermfg=16 ctermbg=119 cterm=bold guifg=#000000 guibg=#87FF5F gui=bold
 hi PmenuThumb ctermfg=NONE ctermbg=119 cterm=NONE guifg=NONE guibg=#87FF5F gui=NONE
+
 hi Question ctermfg=119 ctermbg=NONE cterm=underline guifg=#87FF5F guibg=NONE gui=underline
 hi Search ctermfg=16 ctermbg=75 cterm=bold guifg=#000000 guibg=#7ca8de gui=bold
 hi SpecialKey ctermfg=97 ctermbg=NONE cterm=NONE guifg=#a587c3 guibg=NONE gui=NONE
